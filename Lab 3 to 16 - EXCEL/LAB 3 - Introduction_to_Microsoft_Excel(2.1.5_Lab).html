@@ -1,0 +1,1291 @@
+<!DOCTYPE html><html><head>
+<style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 1rem;
+      }
+      ol,
+      ul {
+        margin-bottom: 0in;
+      }
+      table {
+        margin-top: 1rem;
+        border: 1px solid gray;
+        width: 7in;
+        border-collapse: collapse;
+      }
+
+      table > thead > tr > .openTableTextBox__table-header-data {
+        text-align: center;
+        margin-top: 6pt;
+        margin-right: 0in;
+        margin-bottom: 6pt;
+        margin-left: 0in;
+        text-align: center;
+        line-height: 115%;
+        page-break-after: avoid;
+        font-size: 10pt;
+        font-family: "Arial", sans-serif;
+        font-weight: bold;
+        background: #dbe5f1;
+        padding: 0.5rem;
+      }
+      .openTableTextBox__answerText
+        table
+        > thead
+        > tr
+        > .openTableTextBox__table-header-data {
+        background: #f2dbdb !important;
+      }
+      .openTextBox__textArea-container {
+        margin-top: 6pt;
+        margin-right: 0in;
+        margin-bottom: 6pt;
+        font-size: 10pt;
+        font-family: "Arial", sans-serif;
+        width: 50%;
+      }
+      .openTableTextBox__fieldset {
+        padding: 5px;
+      }
+      td {
+        margin-top: 3pt;
+        margin-right: 0in;
+        margin-bottom: 3pt;
+        margin-left: 0in;
+        font-size: 10pt;
+        font-family: "Arial", sans-serif;
+        width: 98.85pt;
+        border: solid windowtext 1pt;
+        border-top: none;
+        padding: 0.7pt 5.75pt 0.7pt 5.75pt;
+      }
+      textarea {
+        width: 100%;
+      }
+      .answergray {
+        padding: 0.2rem;
+      }
+
+      .openTableTextBox__widget {
+        margin-top: 6pt;
+        margin-right: 0in;
+        margin-bottom: 6pt;
+        margin-left: 0.25in;
+      }
+
+      .show-answer,
+      .hide-answer {
+        padding: 0.5rem 1rem;
+        background-color: #3d692b;
+        color: #fff;
+        border: 0px;
+        cursor: pointer;
+        margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
+      }
+
+      .openTextBoxController__button-container {
+        display: flex;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+      }
+
+      .openTextBoxController__button-container .btn-text {
+        margin: 10px;
+      }
+
+      .btn-text {
+        border: 0px;
+        padding: 0.5rem 1rem;
+        background-color: #3d692b;
+        color: #fff;
+        border-radius: 0;
+        cursor: pointer;
+      }
+
+      .u-display-none {
+        display: none;
+      }
+      .openTextBox__postText, openTableTextBox__postText {
+        margin-top: 0.5rem;
+      }
+      .edit-comment {
+        display: none;
+      }
+      .js-heading-inner {
+        display: none;
+      }
+      .block__title-inner,
+      .article__title-inner {
+        display: block;
+        font-size: 1.5em;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+      }
+      h2{
+        font-size: 1.25em;
+      }
+      h3{
+        font-size: 1.125em;
+      }
+      .table
+        > .table-inner
+        > .table-wrapper
+        > .table-widget
+        > table
+        > tbody
+        > tr
+        > th {
+        border: solid windowtext 1pt;
+      }
+      .openTableTextBox__answerText
+        table
+        > thead
+        > tr
+        > .openTableTextBox__table-header-data {
+        background: #f2dbdb !important;
+      }
+      .command-output > .table-inner > .table-wrapper > .table-widget > table,
+      .command-output
+        > .table-inner
+        > .table-wrapper
+        > .table-widget
+        > table
+        > tbody
+        > tr
+        > td,
+      .command-output
+        > .table-inner
+        > .table-wrapper
+        > .table-widget
+        > table
+        > tbody
+        > tr
+        > th {
+        border: none !important;
+        text-align: right !important;
+      }
+      .simple-table > .table-inner > .table-wrapper{
+        margin-left: 1.5rem;
+      }
+      .openTextBox__widget {
+        margin-left: 1.5rem;
+      }
+      img {
+        width: 30%;
+        height: auto;
+        margin-top: 1rem;
+        margin-left: 3rem;
+      }
+      .answergray {
+        background-color: #ccc;
+      }
+      .openTableTextBox__widget > .answergray {
+        background-color: #fff !important;
+      }
+      li > ul,ol > li{
+        margin-left: 0px !important;
+      }
+      img {
+        width: 30%;
+        height: auto;
+        margin-top: 1rem;
+        margin-left: 3rem;
+      }
+    </style>
+
+</head><body>
+
+<div class="article__inner">
+
+
+  <div class="block__container">
+  <div data-adapt-id="6392e1b009d39b030d1085b1" class="block 6392e1b009d39b030d1085b1 background-color-white remove-bottom-padding remove-top-padding">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="6392e2040f7c3e0359c2092f" class="component text 6392e2040f7c3e0359c2092f    is-full  "><div class="component__inner text__inner">
+  
+  
+  <div class="component__header text__header" id="6392e2040f7c3e0359c2092f-header">
+    <div class="component__header-inner text__header-inner">
+  
+  
+      
+  
+      <div class="component__body text__body">
+        <div class="component__body-inner text__body-inner">
+          <h1>​​Lab - Introduction to Microsoft Excel​</h1><h2>Objectives</h2><p>In this lab you will learn how to access a free version of Microsoft Excel.</p><ul><li><p><strong>Part 1: Accessing the Free Microsoft Office Suite</strong></p></li><li><p><strong>Part 2: Saving and Opening an Excel Workbook</strong></p></li><li><p><strong>Part 3: Working with Cells, Rows, and Columns</strong></p></li></ul><ul><li><p><strong>Part 4: Managing Excel Worksheets</strong></p></li><li><p><strong>Part 5: Entering Data and Formatting Cells</strong></p></li></ul>
+        </div>
+      </div>
+  
+  
+    </div>
+  </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="6392e2380f7c3e0359c20931" class="block 6392e2380f7c3e0359c20931 background-color-white remove-bottom-padding remove-top-padding">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="6392e2380f7c3e0359c20932" class="component text 6392e2380f7c3e0359c20932    is-full  "><div class="component__inner text__inner">
+  
+  
+  <div class="component__header text__header" id="6392e2380f7c3e0359c20932-header">
+    <div class="component__header-inner text__header-inner">
+  
+  
+      
+  
+      <div class="component__body text__body">
+        <div class="component__body-inner text__body-inner">
+          <h2>Background / Scenario</h2><p>Microsoft Excel is a spreadsheet application developed by Microsoft to run on Windows, Mac OS, Android and iOS. Excel includes calculation and computation capabilities, as well as tools for creating graphs, charts, and pivot tables. </p><p>Microsoft provides a free online version of their Office suite at Office.com, which includes Excel. The free version does have some limitations. It does not have the full functionality and features of the paid versions, and it can only be used while connected to the Internet.</p><p>There are alternative free spreadsheet applications such as Google Sheets and Apache Calc. While the steps in this lab were created for the free version of Excel from Office.com, other spreadsheet applications have the same functionalities and similar interfaces and can be used to accomplish this work.</p>
+        </div>
+      </div>
+  
+  
+    </div>
+  </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="6392e28cc0599c02e72fa5ac" class="block 6392e28cc0599c02e72fa5ac background-color-white remove-bottom-padding remove-top-padding">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="6392e28cc0599c02e72fa5ad" class="component text 6392e28cc0599c02e72fa5ad    is-full  "><div class="component__inner text__inner">
+  
+  
+  <div class="component__header text__header" id="6392e28cc0599c02e72fa5ad-header">
+    <div class="component__header-inner text__header-inner">
+  
+  
+      
+  
+      <div class="component__body text__body">
+        <div class="component__body-inner text__body-inner">
+          <h2>Required Resources</h2><ul><li><p>A PC or laptop with an internet connection</p></li><li><p>A browser from which to navigate to the Office suite</p></li><li><p>Instructions</p></li></ul><p>Note: The precise steps for accessing the free Office suite may change over time.</p>
+        </div>
+      </div>
+  
+  
+    </div>
+  </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="6392e31e09d39b030d1085b3" class="block 6392e31e09d39b030d1085b3 background-color-white remove-bottom-padding remove-top-padding">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="6392e31f09d39b030d1085b4" class="component text 6392e31f09d39b030d1085b4    is-full  "><div class="component__inner text__inner">
+  
+  
+  <div class="component__header text__header" id="6392e31f09d39b030d1085b4-header">
+    <div class="component__header-inner text__header-inner">
+  
+  
+      
+  
+      <div class="component__body text__body">
+        <div class="component__body-inner text__body-inner">
+          <h3>Part 1: Accessing the free Microsoft Office Suite</h3><p>If you do not already have access to Microsoft Excel, follow the steps below to obtain a free version from Office.com.</p><p><strong>Step 1: Navigate to Office.com</strong></p><p><strong>Step 2: Sign up for the free version of Office</strong></p><ol style="list-style-type:lower-alpha"><li>Click the “Sign in” link at the top right of the screen.</li></ol><p><strong>Step 3: Log in to your Microsoft account or create one for free</strong></p><ol style="list-style-type:lower-alpha"><li>If you already have a Windows, Xbox Live, or Skype login, then you already have an active Microsoft account that you can use; otherwise create a new account.</li><li>Log in.</li><li>Once logged in, you should see a list of applications that are available in the pane on the left of the window as well as under <strong>Create New.</strong></li></ol><p>Your Office.com account also includes access to OneDrive, which is an online cloud storage space for the files you create. </p>
+        </div>
+      </div>
+  
+  
+    </div>
+  </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="6392e7dcc0599c02e72fa5af" class="block 6392e7dcc0599c02e72fa5af background-color-white remove-bottom-padding remove-top-padding">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="6392e7ed476e6a03339d0530" class="component opentextbox 6392e7ed476e6a03339d0530    is-full  "><div class="component__inner openTextBox__inner">
+    
+    
+    <div class="component__widget openTextBox__widget question-container">
+            <div class="openTextBox__preText">In addition to Excel, what are three other applications that are available for free with an Office.com account?</div>
+        <div class="openTextBox__textArea-container">
+            <fieldset class="openTextBox__fieldset">
+                <legend class="openTextBox__legend">Answer Area</legend>
+                <textarea class="openTextBox__textArea" rows="3" name="answerArea" placeholder="Enter your answer here"></textarea>
+            </fieldset>
+        </div>
+        <div class="openTextBox__answerText answergray u-display-none">Answers may vary, but can include Word, PowerPoint, Outlook, OneDrive, Teams, OneNote, Skype, Calendar, and Sway. </div>
+        <div class="btn__container">
+            <button class="btn-text openTextBox__showButton show-answer">Show Answer</button>
+            <button class="btn-text openTextBox__hideButton hide-answer u-display-none">Hide Answer</button>
+        </div>
+    </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="6392e95e476e6a03339d0532" class="block 6392e95e476e6a03339d0532 background-color-white remove-bottom-padding remove-top-padding">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="6392e95e476e6a03339d0533" class="component text 6392e95e476e6a03339d0533    is-full  "><div class="component__inner text__inner">
+  
+  
+  <div class="component__header text__header" id="6392e95e476e6a03339d0533-header">
+    <div class="component__header-inner text__header-inner">
+  
+  
+      
+  
+      <div class="component__body text__body">
+        <div class="component__body-inner text__body-inner">
+          <p><strong>Step 4: Launch the Excel app </strong></p><ol style="list-style-type:lower-alpha"><li><p>Once you are logged into your account, click the Excel app icon in the pane on the left.</p></li><li><p>Next, click on “<strong>New blank workbook</strong>.”</p></li></ol><p>With a blank workbook now open, you are ready to begin work in Excel. Leave the workbook open and proceed to Part 2 of the lab.</p>
+        </div>
+      </div>
+  
+  
+    </div>
+  </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="6392ea120f7c3e0359c20934" class="block 6392ea120f7c3e0359c20934 background-color-white remove-bottom-padding remove-top-padding">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="6392ea120f7c3e0359c20935" class="component text 6392ea120f7c3e0359c20935    is-full  "><div class="component__inner text__inner">
+  
+  
+  <div class="component__header text__header" id="6392ea120f7c3e0359c20935-header">
+    <div class="component__header-inner text__header-inner">
+  
+  
+      
+  
+      <div class="component__body text__body">
+        <div class="component__body-inner text__body-inner">
+          <h3>Part 2: Saving and Opening an Excel Workbook</h3><p>Saving and opening an Excel workbook uses the same process as with any other Microsoft Office application. </p><p>The steps below are specific to the free version of Excel accessible through Office.com. If you are using a paid full version of Excel or other spreadsheet program, the exact steps will vary slightly, but the process is essentially the same.</p><p><strong>Step 1: Saving an Excel Workbook</strong></p><ol style="list-style-type:lower-alpha"><li><p>To save an Excel workbook, select the File tab in the top left of the menu bar then select <strong>Save As</strong> in the left pane. </p></li><li><p>In the Save As options list, select <strong>Save a copy to OneDrive</strong>.</p></li><li><p>In the <strong>My files</strong> dialog box, choose the<strong> Location</strong> where the workbook will be saved. Select the Documents directory.</p></li><li><p>In the <strong>Save to OneDrive</strong> window, save the Excel file as “My_Bicycle_Shop_Sales”. </p><p><em>Note: Excel will, by default, save the workbook with an .xlsx file extension.</em></p></li><li><p>Close the Excel workbook. </p></li></ol><p><strong>Step 2: Opening an Excel Workbook</strong></p><ol style="list-style-type:lower-alpha"><li><p>Relaunch Excel from your Office.com account using the method in Part 1 of the lab.</p></li><li><p>To open a saved Excel workbook, select the File tab in the top left of the menu bar then select Open in the left pane.</p></li><li><p>The “My_Bicycle_Shop_Sales” workbook saved in the previous step should be in the Recent files list. Click on the workbook to open it.</p></li></ol>
+        </div>
+      </div>
+  
+  
+    </div>
+  </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="63a057feab99cd079d97b7b3" class="block 63a057feab99cd079d97b7b3 background-color-white remove-bottom-padding remove-top-padding">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="63a057ffab99cd079d97b7b4" class="component text 63a057ffab99cd079d97b7b4    is-full  "><div class="component__inner text__inner">
+  
+  
+  <div class="component__header text__header" id="63a057ffab99cd079d97b7b4-header">
+    <div class="component__header-inner text__header-inner">
+  
+  
+      
+  
+      <div class="component__body text__body">
+        <div class="component__body-inner text__body-inner">
+          <h3>Part 3: Working with Cells, Rows, and Columns</h3><p>An Excel worksheet is made up of a set of rows and columns. Rows are identified by numbers and columns are identified by letters. An Excel worksheet has 16,384 columns and 1,048,576 rows.</p><p>The rectangular box at the intersection of a row and column is called a cell. Each cell is identified by its column and row coordinates, such as A1 or B2. The coordinates of the active cell are indicated in the <strong>Cell Name Box </strong>above column A. A cell reference is always the column letter followed by the row number. Values, which include numbers and letters, can be typed into cells. Cells can also contain mathematical formulas and functions for performing calculations.</p>
+        </div>
+      </div>
+  
+  
+    </div>
+  </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="6392f293476e6a03339d0535" class="block 6392f293476e6a03339d0535 background-color-white remove-bottom-padding remove-top-padding">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="6392f2b4476e6a03339d0537" class="component graphic 6392f2b4476e6a03339d0537    is-left  "><div class="component__inner graphic__inner">
+
+  
+  
+
+  <div class="component__widget graphic__widget">
+
+    <div class="graphic__image-container">
+
+      <img loading="eager" class="graphic__image js-graphic-set-image-src" src="data:image/png;base64,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" data-large="course/en-US/assets/f952cd298b0c95bb443ef4d9cc5d8a9c5b9944fc.png" data-small="course/en-US/assets/f952cd298b0c95bb443ef4d9cc5d8a9c5b9944fc.png" aria-label="2.1.5-lab-image1.png">
+
+
+    </div>
+
+  </div>
+
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="6392f45e09d39b030d1085b9" class="block 6392f45e09d39b030d1085b9 background-color-white remove-bottom-padding remove-top-padding">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="6392f45e09d39b030d1085ba" class="component text 6392f45e09d39b030d1085ba    is-full  "><div class="component__inner text__inner">
+  
+  
+  <div class="component__header text__header" id="6392f45e09d39b030d1085ba-header">
+    <div class="component__header-inner text__header-inner">
+  
+  
+      
+  
+      <div class="component__body text__body">
+        <div class="component__body-inner text__body-inner">
+          <p><strong>Step 1: Changing the Active Cell</strong></p><ol style="list-style-type:lower-alpha"><li><p>Click inside cell <strong>A1</strong> at the top left corner of the worksheet. Notice the cell now has a border around it and the cell coordinates are displayed above column A in the<strong> Cell Name Box</strong>. </p><p>This indicates that cell A1 is the active cell. Only one cell is active at a time and data can only be entered into the currently active cell. </p></li><li><p>Now, click into cell <strong>B2</strong>. Note that this cell is now the active cell with a border and its reference coordinates are in the <strong>Cell Name Box</strong> above column A.</p></li></ol>
+        </div>
+      </div>
+  
+  
+    </div>
+  </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="6392f50d09d39b030d1085bc" class="block 6392f50d09d39b030d1085bc background-color-white remove-bottom-padding remove-top-padding">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="6392f50d09d39b030d1085bd" class="component opentextbox 6392f50d09d39b030d1085bd    is-full  "><div class="component__inner openTextBox__inner">
+    
+    
+    <div class="component__widget openTextBox__widget question-container">
+            <div class="openTextBox__preText">What happens if you type the coordinates of a cell directly into the <b>Cell Name Box</b>? </div>
+        <div class="openTextBox__textArea-container">
+            <fieldset class="openTextBox__fieldset">
+                <legend class="openTextBox__legend">Answer Area</legend>
+                <textarea class="openTextBox__textArea" rows="3" name="answerArea" placeholder="Enter your answer here"></textarea>
+            </fieldset>
+        </div>
+        <div class="openTextBox__answerText answergray u-display-none">That cell becomes the active cell and is selected.</div>
+        <div class="btn__container">
+            <button class="btn-text openTextBox__showButton show-answer">Show Answer</button>
+            <button class="btn-text openTextBox__hideButton hide-answer u-display-none">Hide Answer</button>
+        </div>
+    </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="63a05b3a31f4240032c4640e" class="block 63a05b3a31f4240032c4640e background-color-white remove-bottom-padding remove-top-padding">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="63a05b3a31f4240032c4640f" class="component text 63a05b3a31f4240032c4640f    is-full  "><div class="component__inner text__inner">
+  
+  
+  <div class="component__header text__header" id="63a05b3a31f4240032c4640f-header">
+    <div class="component__header-inner text__header-inner">
+  
+  
+      
+  
+      <div class="component__body text__body">
+        <div class="component__body-inner text__body-inner">
+          <p><strong>Step 2: Selecting Columns and Rows</strong></p><p>As previously mentioned, columns are labeled with letters at the top of each column—this is called the header. To select an entire column, click the letter at the top of the column. </p><p>You can resize a column by clicking the dividing line at the right of a column header and dragging it left or right.</p><ol style="list-style-type:lower-alpha"><li><p>Click the header for <strong>Column A</strong> to select the entire column. <strong>Column A</strong> is now highlighted.</p></li></ol>
+        </div>
+      </div>
+  
+  
+    </div>
+  </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="6392f627c0599c02e72fa5b7" class="block 6392f627c0599c02e72fa5b7 background-color-white remove-bottom-padding remove-top-padding">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="6392f627c0599c02e72fa5b8" class="component graphic 6392f627c0599c02e72fa5b8    is-left  "><div class="component__inner graphic__inner">
+
+  
+  
+
+  <div class="component__widget graphic__widget">
+
+    <div class="graphic__image-container">
+
+      <img loading="eager" class="graphic__image js-graphic-set-image-src" src="data:image/png;base64,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" data-large="course/en-US/assets/177cb38f59f4d8ee8d26fdc11e850505738e9965.png" data-small="course/en-US/assets/177cb38f59f4d8ee8d26fdc11e850505738e9965.png" aria-label="2.1.5-lab-image2.png">
+
+
+    </div>
+
+  </div>
+
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="63a05b9631f4240032c46410" class="block 63a05b9631f4240032c46410 background-color-white remove-bottom-padding remove-top-padding">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="63a05b9631f4240032c46411" class="component text 63a05b9631f4240032c46411    is-full  "><div class="component__inner text__inner">
+  
+  
+  <div class="component__header text__header" id="63a05b9631f4240032c46411-header">
+    <div class="component__header-inner text__header-inner">
+  
+  
+      
+  
+      <div class="component__body text__body">
+        <div class="component__body-inner text__body-inner">
+          <ol start="2" style="list-style-type:lower-alpha"><li><p>Move the cursor to the line to the right of the <strong>Column A </strong>header so that the cursor turns into a double headed arrow. Drag the cursor right to widen <strong>Column A</strong>. </p></li><li>Now click the row heading for <strong>Row 1 </strong>so that the row is highlighted.</li></ol>
+        </div>
+      </div>
+  
+  
+    </div>
+  </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="6392f6ba476e6a03339d0539" class="block 6392f6ba476e6a03339d0539 background-color-white remove-bottom-padding remove-top-padding">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="6392f6ba476e6a03339d053a" class="component graphic 6392f6ba476e6a03339d053a    is-left  "><div class="component__inner graphic__inner">
+
+  
+  
+
+  <div class="component__widget graphic__widget">
+
+    <div class="graphic__image-container">
+
+      <img loading="eager" class="graphic__image js-graphic-set-image-src" src="data:image/png;base64,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" data-large="course/en-US/assets/dbcb1b2fe622c69688b3054b0a6170613c8fb44b.png" data-small="course/en-US/assets/dbcb1b2fe622c69688b3054b0a6170613c8fb44b.png" aria-label="2.1.5-lab-image3.png">
+
+
+    </div>
+
+  </div>
+
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="6392f7e609d39b030d1085bf" class="block 6392f7e609d39b030d1085bf background-color-white remove-bottom-padding remove-top-padding">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="6392f7e609d39b030d1085c0" class="component text 6392f7e609d39b030d1085c0    is-full  "><div class="component__inner text__inner">
+  
+  
+  <div class="component__header text__header" id="6392f7e609d39b030d1085c0-header">
+    <div class="component__header-inner text__header-inner">
+  
+  
+      
+  
+      <div class="component__body text__body">
+        <div class="component__body-inner text__body-inner">
+          <ol start="4" style="list-style-type:lower-alpha"><li><p>Move the cursor to the line dividing the headers of<strong> Row 1 </strong>and<strong> Row 2</strong> and drag it down to make <strong>Row 1</strong> taller.</p></li></ol>
+        </div>
+      </div>
+  
+  
+    </div>
+  </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="6392f853c0599c02e72fa5bc" class="block 6392f853c0599c02e72fa5bc background-color-white remove-bottom-padding remove-top-padding">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="6392f853c0599c02e72fa5bd" class="component opentextbox 6392f853c0599c02e72fa5bd    is-full  "><div class="component__inner openTextBox__inner">
+    
+    
+    <div class="component__widget openTextBox__widget question-container">
+            <div class="openTextBox__preText">How can you select more than one column or row? </div>
+        <div class="openTextBox__textArea-container">
+            <fieldset class="openTextBox__fieldset">
+                <legend class="openTextBox__legend">Answer Area</legend>
+                <textarea class="openTextBox__textArea" rows="3" name="answerArea" placeholder="Enter your answer here"></textarea>
+            </fieldset>
+        </div>
+        <div class="openTextBox__answerText answergray u-display-none">Answers may vary. Common methods are: <br>(1) Select the column or row and drag the mouse to select the desired number of columns or rows.<br>   (2) Select the column or row and hold down the <b>Shift</b> key on the keyboard and press the directional keys to select additional columns or rows. <br>   (3) Typing column or row names in the Cell Name Box, separated by a colon (e.g., A:D or 1:5). </div>
+        <div class="btn__container">
+            <button class="btn-text openTextBox__showButton show-answer">Show Answer</button>
+            <button class="btn-text openTextBox__hideButton hide-answer u-display-none">Hide Answer</button>
+        </div>
+    </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="63a05c7cab99cd079d97b7b5" class="block 63a05c7cab99cd079d97b7b5 background-color-white remove-bottom-padding remove-top-padding">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="63a05c7cab99cd079d97b7b6" class="component text 63a05c7cab99cd079d97b7b6    is-full  "><div class="component__inner text__inner">
+  
+  
+  <div class="component__header text__header" id="63a05c7cab99cd079d97b7b6-header">
+    <div class="component__header-inner text__header-inner">
+  
+  
+      
+  
+      <div class="component__body text__body">
+        <div class="component__body-inner text__body-inner">
+          <p><strong>Step 3: Adding Rows and Columns</strong></p><p>To add a row or column, click on a header or a cell, and then go up to the toolbar, or ribbon, and find the <strong>Insert </strong>button in the <strong>Cells </strong>group. Click the arrow below <strong>Insert </strong>and in the drop-down menu, select <strong>Insert Sheet Rows </strong>or <strong>Insert Sheet Columns</strong>.</p><p>You can add multiple rows or columns by selecting the number of rows or columns you want to add and using the same method as above. The number of rows or columns added will be the same and the number that you have selected. For example, selecting 4 rows and clicking <strong>Insert Sheet Rows</strong> will add 4 rows to the worksheet above those you have selected.</p><ol style="list-style-type:lower-alpha"><li><p>Try adding a few rows and columns to the worksheet.</p></li></ol><p></p><p><em>Note: Depending on the size of your window, to see the cells group, it may be necessary to expand the Excel toolbar by clicking on the small down arrow at the far-right edge of the toolbar, shown below. </em></p>
+        </div>
+      </div>
+  
+  
+    </div>
+  </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="6392fa520f7c3e0359c2093c" class="block 6392fa520f7c3e0359c2093c background-color-white remove-bottom-padding remove-top-padding">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="6392fa520f7c3e0359c2093d" class="component graphic 6392fa520f7c3e0359c2093d    is-left  "><div class="component__inner graphic__inner">
+
+  
+  
+
+  <div class="component__widget graphic__widget">
+
+    <div class="graphic__image-container">
+
+      <img loading="eager" class="graphic__image js-graphic-set-image-src" src="data:image/png;base64,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" data-large="course/en-US/assets/a7d6a169877313590869b5e3bd15f0662699e4a6.png" data-small="course/en-US/assets/a7d6a169877313590869b5e3bd15f0662699e4a6.png" aria-label="2.1.5-lab-image4.png">
+
+
+    </div>
+
+  </div>
+
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="6392fb5409d39b030d1085c2" class="block 6392fb5409d39b030d1085c2 background-color-white remove-bottom-padding remove-top-padding">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="6392fb5409d39b030d1085c3" class="component text 6392fb5409d39b030d1085c3    is-full  "><div class="component__inner text__inner">
+  
+  
+  <div class="component__header text__header" id="6392fb5409d39b030d1085c3-header">
+    <div class="component__header-inner text__header-inner">
+  
+  
+      
+  
+      <div class="component__body text__body">
+        <div class="component__body-inner text__body-inner">
+          <p>To delete a row or column, you follow the same process, except click the arrow under the Delete button in the Cells group and then select <strong>Delete Sheet Rows</strong> or <strong>Delete Sheet Columns</strong>.</p><ol start="2" style="list-style-type:lower-alpha"><li>Try deleting a few rows and columns from the worksheet.</li></ol><p><strong>Step 4: Selecting a Range of Cells</strong></p><p>Click cell <strong>B2</strong> and drag the mouse to select the cell range of <strong>B2</strong> through <strong>C6</strong>. The selected range is highlighted; the active cell is the top left cell in the range but is not highlighted.</p>
+        </div>
+      </div>
+  
+  
+    </div>
+  </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="6392fc5cc0599c02e72fa5bf" class="block 6392fc5cc0599c02e72fa5bf background-color-white remove-bottom-padding remove-top-padding">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="6392fc5cc0599c02e72fa5c0" class="component opentextbox 6392fc5cc0599c02e72fa5c0    is-full  "><div class="component__inner openTextBox__inner">
+    
+    
+    <div class="component__widget openTextBox__widget question-container">
+            <div class="openTextBox__preText">What is the result of typing A1:C5 in the Cell Name Box? </div>
+        <div class="openTextBox__textArea-container">
+            <fieldset class="openTextBox__fieldset">
+                <legend class="openTextBox__legend">Answer Area</legend>
+                <textarea class="openTextBox__textArea" rows="3" name="answerArea" placeholder="Enter your answer here"></textarea>
+            </fieldset>
+        </div>
+        <div class="openTextBox__answerText answergray u-display-none">All cells in the range of A1 through C5 are selected. </div>
+        <div class="btn__container">
+            <button class="btn-text openTextBox__showButton show-answer">Show Answer</button>
+            <button class="btn-text openTextBox__hideButton hide-answer u-display-none">Hide Answer</button>
+        </div>
+    </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="63a05d9d31f4240032c46413" class="block 63a05d9d31f4240032c46413 background-color-white remove-bottom-padding remove-top-padding">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="63a05d9e31f4240032c46414" class="component text 63a05d9e31f4240032c46414    is-full  "><div class="component__inner text__inner">
+  
+  
+  <div class="component__header text__header" id="63a05d9e31f4240032c46414-header">
+    <div class="component__header-inner text__header-inner">
+  
+  
+      
+  
+      <div class="component__body text__body">
+        <div class="component__body-inner text__body-inner">
+          <p><strong>Step 5: Selecting the Entire Sheet</strong></p><p>To select the entire worksheet, click the triangle at the top left corner of the worksheet. </p><p>The entire worksheet can also be selected by with the keyboard shortcut <strong>Ctrl+A.</strong></p>
+        </div>
+      </div>
+  
+  
+    </div>
+  </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="6392fd3209d39b030d1085c5" class="block 6392fd3209d39b030d1085c5 background-color-white remove-bottom-padding remove-top-padding">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="6392fd3209d39b030d1085c6" class="component graphic 6392fd3209d39b030d1085c6    is-left  "><div class="component__inner graphic__inner">
+
+  
+  
+
+  <div class="component__widget graphic__widget">
+
+    <div class="graphic__image-container">
+
+      <img loading="eager" class="graphic__image js-graphic-set-image-src" src="data:image/png;base64,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" data-large="course/en-US/assets/16b24b69de936042286dc9d05c786aefcfa7f6cf.png" data-small="course/en-US/assets/16b24b69de936042286dc9d05c786aefcfa7f6cf.png" aria-label="2.1.5-lab-image5.png">
+
+
+    </div>
+
+  </div>
+
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="63a05e0031f4240032c46415" class="block 63a05e0031f4240032c46415 background-color-white remove-bottom-padding remove-top-padding">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="63a05e0031f4240032c46416" class="component text 63a05e0031f4240032c46416    is-full  "><div class="component__inner text__inner">
+  
+  
+  <div class="component__header text__header" id="63a05e0031f4240032c46416-header">
+    <div class="component__header-inner text__header-inner">
+  
+  
+      
+  
+      <div class="component__body text__body">
+        <div class="component__body-inner text__body-inner">
+          <h2>Part 4: Managing Excel Worksheets</h2><p> When you open a new Excel file, you are creating a workbook with one worksheet, titled by default Sheet1. The name of the worksheet appears in a tab at the bottom left of the window. You can add as many worksheets as you need to hold your data to a workbook. The tabs at the bottom left of the window are used to switch between worksheets and to insert new worksheets into a workbook.</p><p><strong>Step 1: Adding and Deleting Worksheets</strong></p><ol style="list-style-type:lower-alpha"><li>When you launch Excel the default worksheet is named Sheet1. You can add a worksheet by clicking the plus + button next to the worksheet tabs. A new worksheet is added with the default name of Sheet2.</li><li>You can also add a worksheet using the shortcut SHIFT + F11. If you do this to add a third worksheet, Excel names this worksheet Sheet3.</li><li>You can delete a worksheet by right-clicking on the worksheet name and selecting Delete from the pop-up menu. Using this procedure, delete Sheet 3.<br>Note that once you delete a worksheet you cannot recover it.</li><li><em>Note: Some versions of some spreadsheet tools, including Excel, have a Version History feature that you may be able to use to recover data by restoring an old version or copying and pasting. This varies between programs and depends on whether the deleted data was previously saved.</em></li></ol><p><strong>Step 2: Renaming a New Worksheet</strong></p><ol style="list-style-type:lower-alpha"><li>To rename a worksheet, right click (or use your operating system’s shortcut for right click) on the worksheet tab and select Rename from the pop-up menu.<ol><li>Right-click on Sheet1, rename the worksheet “Sales Data.”</li><li>Right-click on Sheet2, rename the worksheet “Historical Sales.”</li></ol></li></ol>
+        </div>
+      </div>
+  
+  
+    </div>
+  </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="6392fd7f09d39b030d1085ca" class="block 6392fd7f09d39b030d1085ca background-color-white remove-bottom-padding remove-top-padding">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="6392fd7f09d39b030d1085cb" class="component graphic 6392fd7f09d39b030d1085cb    is-left  "><div class="component__inner graphic__inner">
+
+  
+  
+
+  <div class="component__widget graphic__widget">
+
+    <div class="graphic__image-container">
+
+      <img loading="eager" class="graphic__image js-graphic-set-image-src" src="data:image/png;base64,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" data-large="course/en-US/assets/63167e43b9d284756b31fc99dd9530a141c62068.png" data-small="course/en-US/assets/63167e43b9d284756b31fc99dd9530a141c62068.png" aria-label="2.1.5-lab-image6">
+
+
+    </div>
+
+  </div>
+
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="6392fff00f7c3e0359c20940" class="block 6392fff00f7c3e0359c20940 background-color-white remove-bottom-padding remove-top-padding">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="6392fff00f7c3e0359c20941" class="component opentextbox 6392fff00f7c3e0359c20941    is-full  "><div class="component__inner openTextBox__inner">
+    
+    
+    <div class="component__widget openTextBox__widget question-container">
+            <div class="openTextBox__preText">What happens to the data in a worksheet when the worksheet is deleted? </div>
+        <div class="openTextBox__textArea-container">
+            <fieldset class="openTextBox__fieldset">
+                <legend class="openTextBox__legend">Answer Area</legend>
+                <textarea class="openTextBox__textArea" rows="3" name="answerArea" placeholder="Enter your answer here"></textarea>
+            </fieldset>
+        </div>
+        <div class="openTextBox__answerText answergray u-display-none">The data is lost, unless it can be recovered from a previous version of the document.</div>
+        <div class="btn__container">
+            <button class="btn-text openTextBox__showButton show-answer">Show Answer</button>
+            <button class="btn-text openTextBox__hideButton hide-answer u-display-none">Hide Answer</button>
+        </div>
+    </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="639302d70f7c3e0359c20943" class="block 639302d70f7c3e0359c20943 background-color-white remove-bottom-padding remove-top-padding">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="639302d70f7c3e0359c20944" class="component table 639302d70f7c3e0359c20944 is-full"><div class="table-inner component-inner">
+    
+    
+    <div class="component__header table__header" id="639302d70f7c3e0359c20944-header">
+      <div class="component__header-inner table__header-inner">
+    
+    
+        
+    
+        <div class="component__body table__body">
+          <div class="component__body-inner table__body-inner">
+            <h3>Part 5: Entering Data and Formatting Cells</h3><p>Values, both numbers and letters, can be typed into cells.</p><p><strong>Step 1: Enter Data into Cells</strong></p><ol style="list-style-type:lower-alpha"><li>Select cell <strong>A1 </strong>to make it the active cell and enter Sales_Date.</li><li>The enter the following values in cells <strong>B1</strong>, <strong>C1</strong>, and <strong>D1 </strong>respectively:<ul style="list-style-type:disc"><li>Product_Category</li><li>Order_Quantity</li><li>Revenue</li></ul>Expand the column width as necessary to display the full text in each cell.</li><li>Next, add some values under the columns as shown in the table below.</li></ol>
+          </div>
+        </div>
+    
+    
+      </div>
+    </div>
+    <div class="table-wrapper">
+    <div class="table-widget component-widget">
+        <table class="" style="min-width: px">
+            <tbody><tr class="table-row nth-child-0 ">
+                        <th rowspan="1" colspan="1" class="table-data table-heading nth-child-0 ">
+                            <p> </p>
+                        </th>
+                        <th rowspan="1" colspan="1" class="table-data table-heading nth-child-1 ">
+                            <p>A</p>
+                        </th>
+                        <th rowspan="1" colspan="1" class="table-data table-heading nth-child-2 ">
+                            <p>B</p>
+                        </th>
+                        <th rowspan="1" colspan="1" class="table-data table-heading nth-child-3 ">
+                            <p>C</p>
+                        </th>
+                        <th rowspan="1" colspan="1" class="table-data table-heading nth-child-4 ">
+                            <p>D</p>
+                        </th>
+            </tr>
+            <tr class="table-row nth-child-1 ">
+                        <th rowspan="1" colspan="1" class="table-data table-heading nth-child-0 ">
+                            <p>1</p>
+                        </th>
+                        <td rowspan="1" colspan="1" class="table-data nth-child-1 ">
+                            <p>Sales_Date</p>
+                        </td>
+                        <td rowspan="1" colspan="1" class="table-data nth-child-2 ">
+                            <p>Product_Category</p>
+                        </td>
+                        <td rowspan="1" colspan="1" class="table-data nth-child-3 ">
+                            <p>Order_Quantity</p>
+                        </td>
+                        <td rowspan="1" colspan="1" class="table-data nth-child-4 ">
+                            <p>Revenue</p>
+                        </td>
+            </tr>
+            <tr class="table-row nth-child-2 ">
+                        <th rowspan="1" colspan="1" class="table-data table-heading nth-child-0 ">
+                            <p>2</p>
+                        </th>
+                        <td rowspan="1" colspan="1" class="table-data nth-child-1 ">
+                            <p>1/1/2022</p>
+                        </td>
+                        <td rowspan="1" colspan="1" class="table-data nth-child-2 ">
+                            <p>Bikes</p>
+                        </td>
+                        <td rowspan="1" colspan="1" class="table-data nth-child-3 ">
+                            <p>2</p>
+                        </td>
+                        <td rowspan="1" colspan="1" class="table-data nth-child-4 ">
+                            <p>4,837</p>
+                        </td>
+            </tr>
+            <tr class="table-row nth-child-3 ">
+                        <th rowspan="1" colspan="1" class="table-data table-heading nth-child-0 ">
+                            <p>3</p>
+                        </th>
+                        <td rowspan="1" colspan="1" class="table-data nth-child-1 ">
+                            <p>1/2/2022 </p>
+                        </td>
+                        <td rowspan="1" colspan="1" class="table-data nth-child-2 ">
+                            <p>Clothing</p>
+                        </td>
+                        <td rowspan="1" colspan="1" class="table-data nth-child-3 ">
+                            <p>19</p>
+                        </td>
+                        <td rowspan="1" colspan="1" class="table-data nth-child-4 ">
+                            <p>168</p>
+                        </td>
+            </tr>
+            <tr class="table-row nth-child-4 ">
+                        <th rowspan="1" colspan="1" class="table-data table-heading nth-child-0 ">
+                            <p>4</p>
+                        </th>
+                        <td rowspan="1" colspan="1" class="table-data nth-child-1 ">
+                            <p>1/3/2022</p>
+                        </td>
+                        <td rowspan="1" colspan="1" class="table-data nth-child-2 ">
+                            <p>Accessories</p>
+                        </td>
+                        <td rowspan="1" colspan="1" class="table-data nth-child-3 ">
+                            <p>1</p>
+                        </td>
+                        <td rowspan="1" colspan="1" class="table-data nth-child-4 ">
+                            <p>34</p>
+                        </td>
+            </tr>
+        </tbody></table>
+    </div>
+    </div>
+</div></div></div>
+
+</div>
+</div><div data-adapt-id="6393004dc0599c02e72fa5c3" class="block 6393004dc0599c02e72fa5c3 background-color-white remove-bottom-padding remove-top-padding">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="6393006009d39b030d1085ce" class="component table 6393006009d39b030d1085ce is-full"><div class="table-inner component-inner">
+    
+    
+    <div class="component__header table__header" id="6393006009d39b030d1085ce-header">
+      <div class="component__header-inner table__header-inner">
+    
+    
+        
+    
+        <div class="component__body table__body">
+          <div class="component__body-inner table__body-inner">
+            <p><strong>Step 2: Formatting Cell Contents</strong></p><p>There are many formatting options available under the home tab of the toolbar. </p><p>The toolbar may need to be expanded to see all of the formatting options as shown below. See instructions above to expand the toolbar if you don’t see all these options.</p><p></p><p>The <strong>Font </strong>group has options for formatting the text font: font style, font size, formatting, and font color.</p><p>The <strong>Alignment </strong>group has options for alignment and indentation of cell text, merging and un-merging cells, and wrapping text in a cell.</p><p>The <strong>Numbers </strong>group has options for correctly formatting numeric cell contents to currency, numbers, dates, percentages, comma style, etc.</p><p>You can also access formatting options for cells by right clicking a cell and by using the shortcut key <strong>Control + 1</strong> (in Windows).</p><ol style="list-style-type:lower-alpha"><li>Bold the column headers in <strong>Row 1</strong> by selecting the cell range <strong>A1</strong> through <strong>D1 </strong>and then, with the cell range selected, click the bold “<strong>B</strong>” button in the Font group or press <strong>CTRL+B</strong> on the keyboard.</li><li>Change the alignment of the values in the Product_Category column from left justified to right justified by selecting the cell range <strong>B2 </strong>through <strong>B4 </strong>and then clicking the <strong>Align Text Right </strong>button in the <strong>Alignment </strong>group.</li><li>Change the values in the Revenue column to currency by selecting the cell range <strong>D2 </strong>through <strong>D4 </strong>and then, with the cell range selected, click the dollar sign “<strong>$</strong>” button in the <strong>Number </strong>group.<br>When complete, the worksheet should look like the figure below.</li></ol>
+          </div>
+        </div>
+    
+    
+      </div>
+    </div>
+    <div class="table-wrapper">
+    <div class="table-widget component-widget">
+        <table class="" style="min-width: px">
+            <tbody><tr class="table-row nth-child-0 ">
+                        <th rowspan="1" colspan="1" class="table-data table-heading nth-child-0 ">
+                            
+                        </th>
+                        <th rowspan="1" colspan="1" class="table-data table-heading nth-child-1 ">
+                            <p>A</p>
+                        </th>
+                        <th rowspan="1" colspan="1" class="table-data table-heading nth-child-2 ">
+                            <p>B</p>
+                        </th>
+                        <th rowspan="1" colspan="1" class="table-data table-heading nth-child-3 ">
+                            <p>C</p>
+                        </th>
+                        <th rowspan="1" colspan="1" class="table-data table-heading nth-child-4 ">
+                            <p>D</p>
+                        </th>
+            </tr>
+            <tr class="table-row nth-child-1 ">
+                        <td rowspan="1" colspan="1" class="table-data nth-child-0 ">
+                            <p>1</p>
+                        </td>
+                        <td rowspan="1" colspan="1" class="table-data nth-child-1 ">
+                            <p><strong>Sales_Date</strong></p>
+                        </td>
+                        <td rowspan="1" colspan="1" class="table-data nth-child-2 ">
+                            <p><strong>Product_Category</strong></p>
+                        </td>
+                        <td rowspan="1" colspan="1" class="table-data nth-child-3 ">
+                            <p><strong>Order_Quantity</strong></p>
+                        </td>
+                        <td rowspan="1" colspan="1" class="table-data nth-child-4 ">
+                            <p><strong>Revenue</strong></p>
+                        </td>
+            </tr>
+            <tr class="table-row nth-child-2 ">
+                        <td rowspan="1" colspan="1" class="table-data nth-child-0 ">
+                            <p>2</p>
+                        </td>
+                        <td rowspan="1" colspan="1" class="table-data nth-child-1 align-right">
+                            <p>1/1/2022</p>
+                        </td>
+                        <td rowspan="1" colspan="1" class="table-data nth-child-2 align-right">
+                            <p>Bikes</p>
+                        </td>
+                        <td rowspan="1" colspan="1" class="table-data nth-child-3 align-right">
+                            <p>2</p>
+                        </td>
+                        <td rowspan="1" colspan="1" class="table-data nth-child-4 ">
+                            <div class="special-character-align"><span>$</span><span>4,837</span></div>
+                        </td>
+            </tr>
+            <tr class="table-row nth-child-3 ">
+                        <td rowspan="1" colspan="1" class="table-data nth-child-0 ">
+                            <p>3</p>
+                        </td>
+                        <td rowspan="1" colspan="1" class="table-data nth-child-1 align-right">
+                            <p>1/2/2022</p>
+                        </td>
+                        <td rowspan="1" colspan="1" class="table-data nth-child-2 align-right">
+                            <p>Clothing</p>
+                        </td>
+                        <td rowspan="1" colspan="1" class="table-data nth-child-3 align-right">
+                            <p>19</p>
+                        </td>
+                        <td rowspan="1" colspan="1" class="table-data nth-child-4 align-right">
+                            <div class="special-character-align"><span>$</span><span>168</span></div>
+                        </td>
+            </tr>
+            <tr class="table-row nth-child-4 ">
+                        <td rowspan="1" colspan="1" class="table-data nth-child-0 ">
+                            <p>4</p>
+                        </td>
+                        <td rowspan="1" colspan="1" class="table-data nth-child-1 align-right">
+                            <p>1/3/2022</p>
+                        </td>
+                        <td rowspan="1" colspan="1" class="table-data nth-child-2 align-right">
+                            <p>Accessories</p>
+                        </td>
+                        <td rowspan="1" colspan="1" class="table-data nth-child-3 align-right">
+                            <p>1</p>
+                        </td>
+                        <td rowspan="1" colspan="1" class="table-data nth-child-4 align-right">
+                            <div class="special-character-align"><span>$</span><span>34</span></div>
+                        </td>
+            </tr>
+        </tbody></table>
+    </div>
+    </div>
+</div></div></div>
+
+</div>
+</div><div data-adapt-id="63930762c0599c02e72fa5c6" class="block 63930762c0599c02e72fa5c6 background-color-white remove-bottom-padding remove-top-padding">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="63930762c0599c02e72fa5c7" class="component opentextbox 63930762c0599c02e72fa5c7    is-full  "><div class="component__inner openTextBox__inner">
+    
+    
+    <div class="component__widget openTextBox__widget question-container">
+            <div class="openTextBox__preText"><p>What keyboard shortcuts are used to bold, italicize, and underline cell contents? </p></div>
+        <div class="openTextBox__textArea-container">
+            <fieldset class="openTextBox__fieldset">
+                <legend class="openTextBox__legend">Answer Area</legend>
+                <textarea class="openTextBox__textArea" rows="3" name="answerArea" placeholder="Enter your answer here"></textarea>
+            </fieldset>
+        </div>
+        <div class="openTextBox__answerText answergray u-display-none">CTRL+ B for bold, CTRL + I for italics, and CTRL+U for underline. </div>
+        <div class="btn__container">
+            <button class="btn-text openTextBox__showButton show-answer">Show Answer</button>
+            <button class="btn-text openTextBox__hideButton hide-answer u-display-none">Hide Answer</button>
+        </div>
+    </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="63933c8909d39b030d108631" class="block 63933c8909d39b030d108631 background-color-white remove-top-padding">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="63933c8909d39b030d108632" class="component text 63933c8909d39b030d108632    is-full  "><div class="component__inner text__inner">
+  
+  
+  <div class="component__header text__header" id="63933c8909d39b030d108632-header">
+    <div class="component__header-inner text__header-inner">
+  
+  
+      
+  
+      <div class="component__body text__body">
+        <div class="component__body-inner text__body-inner">
+          <ol start="4" style="list-style-type:lower-alpha"><li>Save the file and close the workbook.</li></ol>
+        </div>
+      </div>
+  
+  
+    </div>
+  </div>
+</div>
+</div></div><div class="openTextBoxController-inner"><div class="openTextBoxController__button-container">
+  <button class="btn-text showhidebtn openTextBoxController__showButton">Show All Answers</button>
+  <button class="btn-text showhidebtn openTextBoxController__hideButton u-display-none">Hide All Answers</button>
+  <button class="btn-text resetbtn openTextBoxController__resetButton">Clear All Responses</button>
+</div>
+  <div class="post-text"><hr>© 2017 - 2023 Cisco and/or its affiliates. All rights reserved. Cisco Public</div>
+</div>
+
+</div>
+</div></div>
+
+</div>
+</body>
+<script>
+    window.addEventListener("load", function () {
+      console.log("loaded");
+      document.querySelectorAll(".answergray").forEach(function (ele) {
+        ele.classList.add("u-display-none");
+      });
+      document.querySelectorAll(".hide-answer").forEach(function (ele) {
+        ele.classList.add("u-display-none");
+      });
+      document.querySelectorAll(".show-answer").forEach(function (ele) {
+        ele.addEventListener("click", function (e) {
+          e.currentTarget.nextElementSibling.classList.remove("u-display-none");
+          e.currentTarget
+            .closest(".question-container")
+            .querySelectorAll(".answergray")
+            .forEach(function (ele) {
+              ele.classList.remove("u-display-none");
+            });
+          ele.classList.add("u-display-none");
+        });
+      });
+      document.querySelectorAll(".hide-answer").forEach(function (ele) {
+        ele.addEventListener("click", function (e) {
+          e.currentTarget.previousElementSibling.classList.remove("u-display-none");
+          e.currentTarget
+            .closest(".question-container")
+            .querySelectorAll(".answergray")
+            .forEach(function (ele) {
+              ele.classList.add("u-display-none");
+            });
+          ele.classList.add("u-display-none");
+        });
+      });
+      var event = new Event("click", {
+        bubbles: true,
+        cancelable: true,
+      });
+      document
+        .querySelectorAll(".openTextBoxController__showButton")
+        .forEach(function (ele) {
+          ele.addEventListener("click", function (e) {
+            e.currentTarget.nextElementSibling.classList.remove("u-display-none");
+            ele.classList.add("u-display-none");
+            document.querySelectorAll(".show-answer").forEach(function (ele) {
+              ele.dispatchEvent(event);
+            });
+          });
+        });
+
+      document
+        .querySelectorAll(".openTextBoxController__hideButton")
+        .forEach(function (ele) {
+          ele.addEventListener("click", function (e) {
+            e.currentTarget.previousElementSibling.classList.remove("u-display-none");
+            ele.classList.add("u-display-none");
+            document.querySelectorAll(".hide-answer").forEach(function (ele) {
+              ele.dispatchEvent(event);
+            });
+          });
+        });
+
+      document
+        .querySelectorAll(".openTextBoxController__resetButton")
+        .forEach(function (ele) {
+          ele.addEventListener("click", function (e) {
+            document.querySelectorAll("textArea").forEach(function (ele) {
+              ele.value = "";
+            });
+          });
+        });
+    });
+  </script>
+  </html>

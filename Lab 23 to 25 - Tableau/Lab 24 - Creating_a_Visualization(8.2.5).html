@@ -1,0 +1,783 @@
+<!DOCTYPE html><html><head>
+<style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 1rem;
+      }
+      ol,
+      ul {
+        margin-bottom: 0in;
+      }
+      table {
+        margin-top: 1rem;
+        border: 1px solid gray;
+        width: 7in;
+        border-collapse: collapse;
+      }
+
+      table > thead > tr > .openTableTextBox__table-header-data {
+        text-align: center;
+        margin-top: 6pt;
+        margin-right: 0in;
+        margin-bottom: 6pt;
+        margin-left: 0in;
+        text-align: center;
+        line-height: 115%;
+        page-break-after: avoid;
+        font-size: 10pt;
+        font-family: "Arial", sans-serif;
+        font-weight: bold;
+        background: #dbe5f1;
+        padding: 0.5rem;
+      }
+      .openTableTextBox__answerText
+        table
+        > thead
+        > tr
+        > .openTableTextBox__table-header-data {
+        background: #f2dbdb !important;
+      }
+      .openTextBox__textArea-container {
+        margin-top: 6pt;
+        margin-right: 0in;
+        margin-bottom: 6pt;
+        font-size: 10pt;
+        font-family: "Arial", sans-serif;
+        width: 50%;
+      }
+      .openTableTextBox__fieldset {
+        padding: 5px;
+      }
+      td {
+        margin-top: 3pt;
+        margin-right: 0in;
+        margin-bottom: 3pt;
+        margin-left: 0in;
+        font-size: 10pt;
+        font-family: "Arial", sans-serif;
+        width: 98.85pt;
+        border: solid windowtext 1pt;
+        border-top: none;
+        padding: 0.7pt 5.75pt 0.7pt 5.75pt;
+      }
+      textarea {
+        width: 100%;
+      }
+      .answergray {
+        padding: 0.2rem;
+      }
+
+      .openTableTextBox__widget {
+        margin-top: 6pt;
+        margin-right: 0in;
+        margin-bottom: 6pt;
+        margin-left: 0.25in;
+      }
+
+      .show-answer,
+      .hide-answer {
+        padding: 0.5rem 1rem;
+        background-color: #3d692b;
+        color: #fff;
+        border: 0px;
+        cursor: pointer;
+        margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
+      }
+
+      .openTextBoxController__button-container {
+        display: flex;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+      }
+
+      .openTextBoxController__button-container .btn-text {
+        margin: 10px;
+      }
+
+      .btn-text {
+        border: 0px;
+        padding: 0.5rem 1rem;
+        background-color: #3d692b;
+        color: #fff;
+        border-radius: 0;
+        cursor: pointer;
+      }
+
+      .u-display-none {
+        display: none;
+      }
+      .openTextBox__postText, openTableTextBox__postText {
+        margin-top: 0.5rem;
+      }
+      .edit-comment {
+        display: none;
+      }
+      .js-heading-inner {
+        display: none;
+      }
+      .block__title-inner,
+      .article__title-inner {
+        display: block;
+        font-size: 1.5em;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+      }
+      h2{
+        font-size: 1.25em;
+      }
+      h3{
+        font-size: 1.125em;
+      }
+      .table
+        > .table-inner
+        > .table-wrapper
+        > .table-widget
+        > table
+        > tbody
+        > tr
+        > th {
+        border: solid windowtext 1pt;
+      }
+      .openTableTextBox__answerText
+        table
+        > thead
+        > tr
+        > .openTableTextBox__table-header-data {
+        background: #f2dbdb !important;
+      }
+      .command-output > .table-inner > .table-wrapper > .table-widget > table,
+      .command-output
+        > .table-inner
+        > .table-wrapper
+        > .table-widget
+        > table
+        > tbody
+        > tr
+        > td,
+      .command-output
+        > .table-inner
+        > .table-wrapper
+        > .table-widget
+        > table
+        > tbody
+        > tr
+        > th {
+        border: none !important;
+        text-align: right !important;
+      }
+      .simple-table > .table-inner > .table-wrapper{
+        margin-left: 1.5rem;
+      }
+      .openTextBox__widget {
+        margin-left: 1.5rem;
+      }
+      img {
+        width: 30%;
+        height: auto;
+        margin-top: 1rem;
+        margin-left: 3rem;
+      }
+      .answergray {
+        background-color: #ccc;
+      }
+      .openTableTextBox__widget > .answergray {
+        background-color: #fff !important;
+      }
+      li > ul,ol > li{
+        margin-left: 0px !important;
+      }
+      img {
+        width: 30%;
+        height: auto;
+        margin-top: 1rem;
+        margin-left: 3rem;
+      }
+    </style>
+
+</head><body>
+
+<div class="article__inner">
+
+
+  <div class="block__container">
+  <div data-adapt-id="63bbff6ddc0bc207ef022328" class="block 63bbff6ddc0bc207ef022328 background-color-white remove-padding-top remove-padding-bottom">
+
+<div class="block__inner">
+
+  <div class="block__header">
+    <div class="block__header-inner">
+
+      <div class="block__title">
+
+        <div class="js-heading is-incomplete">
+
+<div id="63bbff6ddc0bc207ef022328-heading" class="js-heading-inner" role="heading" aria-level="3">
+
+  <span class="aria-label">
+      Incomplete Lab - Creating a Visualization
+      </span>
+
+</div>
+</div><div class="block__title-inner" aria-hidden="true">
+          Lab - Creating a Visualization
+        </div>
+
+      </div>
+
+
+
+    </div>
+  </div>
+
+  <div class="component__container">
+  <div data-adapt-id="63bbff6ddc0bc207ef022329" class="component text 63bbff6ddc0bc207ef022329    is-full  "><div class="component__inner text__inner">
+  
+  
+  <div class="component__header text__header" id="63bbff6ddc0bc207ef022329-header">
+    <div class="component__header-inner text__header-inner">
+  
+  
+      
+  
+      <div class="component__body text__body">
+        <div class="component__body-inner text__body-inner">
+          <h2>Objectives</h2><p>In this activity, you will use Tableau Desktop Public, a free version of the Tableau desktop product to create meaningful visualizations to answer questions.</p><p><strong>Part 1: Using a Public Dataset on Tableau</strong></p><p><strong>Part 2: Using Data to Create Meaningful Visualizations</strong></p><h2>Background/Scenario</h2><p>Visualizations are often used to spot trends or to uncover previously unknown correlations within a dataset. The right visualization can show areas of a business that need attention, or where marketing programs should be targeted.</p><p>In this lab, you will use a fictional company dataset that is publicly available in Tableau. Using different types of visualizations, you will create meaningful charts and graphs that can illustrate issues existing in the business.</p><h2>Required Resources</h2><ul><li><p>PC with internet access</p></li><li><p>Tableau Desktop App</p></li></ul>
+        </div>
+      </div>
+  
+  
+    </div>
+  </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="63bd0d2bd9c5f600e6b30e11" class="block 63bd0d2bd9c5f600e6b30e11 background-color-white remove-padding-top remove-padding-bottom">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="63bd0d2bd9c5f600e6b30e12" class="component text 63bd0d2bd9c5f600e6b30e12    is-full  "><div class="component__inner text__inner">
+  
+  
+  <div class="component__header text__header" id="63bd0d2bd9c5f600e6b30e12-header">
+    <div class="component__header-inner text__header-inner">
+  
+  
+      
+  
+      <div class="component__body text__body">
+        <div class="component__body-inner text__body-inner">
+          <h2>Instructions</h2><h3>Part 1: Using a Public Dataset on Tableau</h3><p><strong>Step 1: Connect to the dataset.</strong></p><ol start="1" style="list-style-type: lower-alpha;"><li><p>Open Tableau Desktop. In the start page, select <strong>Sample Data Sets</strong> in the <strong>Discover</strong> pane on the right.</p></li><li><p>Scroll down to the <strong>Entertainment</strong> category. Download the <strong>Hollywood’s Most Profitable Stories</strong> Dataset (csv) by clicking on <strong>Dataset (csv)</strong> on the right of the window.</p></li><li><p>When the download is completed, return to Tableau Public Desktop. In the <strong>Connect</strong> pane, select <strong>Text File</strong>.</p></li><li><p>Locate and open the file <strong>HollywoodsMostProfitableStories.csv</strong> that you just downloaded.</p></li></ol><p><strong>Step 2: Explore the public dataset.</strong></p><p>Data analysis starts with a question or an issue. Using this movie dataset, an analyst can answer questions such as “What genre of movie gets the best audience scores?” or “Which movie studio produced the most revenue in a specific year?”</p><ol start="1" style="list-style-type: lower-alpha;"><li><p>When you load the dataset, the <strong>Data Source</strong> summary page appears. Here you can verify the types of data contained in each field, and quickly make changes to any type that is not correct.</p></li><li><p>Scroll over to the right in the table on the right until you see the <strong>Year</strong> column. Click the <strong>Type</strong> icon (#) above the <strong>Year</strong>.</p></li></ol>
+        </div>
+      </div>
+  
+  
+    </div>
+  </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="63bd0ee55e64e000f15e7d1f" class="block 63bd0ee55e64e000f15e7d1f background-color-white remove-padding-top remove-padding-bottom is-complete">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="63bd0ef45e64e000f15e7d21" class="component opentextbox 63bd0ef45e64e000f15e7d21    is-full  is-optional"><div class="component__inner openTextBox__inner">
+    
+    
+    <div class="component__widget openTextBox__widget question-container">
+            <div class="openTextBox__preText">What is the type of data that is actually contained in the Year column?</div>
+        <div class="openTextBox__textArea-container">
+            <fieldset class="openTextBox__fieldset">
+                <legend class="openTextBox__legend">Answer Area</legend>
+                <textarea class="openTextBox__textArea" rows="3" name="answerArea" placeholder="Type your answers here."></textarea>
+            </fieldset>
+        </div>
+        <div class="openTextBox__answerText answergray u-display-none">Date</div>
+        <div class="btn__container">
+            <button class="btn-text openTextBox__showButton show-answer">Show Answer</button>
+            <button class="btn-text openTextBox__hideButton hide-answer u-display-none">Hide Answer</button>
+        </div>
+    </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="63bd0f39d9c5f600e6b30e16" class="block 63bd0f39d9c5f600e6b30e16 background-color-white remove-padding-top remove-padding-bottom is-complete">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="63bd0f39d9c5f600e6b30e17" class="component opentextbox 63bd0f39d9c5f600e6b30e17    is-full  is-optional"><div class="component__inner openTextBox__inner">
+    
+    
+    <div class="component__widget openTextBox__widget question-container">
+            <div class="openTextBox__preText">Why is the type shown for the Year field not correct?</div>
+        <div class="openTextBox__textArea-container">
+            <fieldset class="openTextBox__fieldset">
+                <legend class="openTextBox__legend">Answer Area</legend>
+                <textarea class="openTextBox__textArea" rows="3" name="answerArea" placeholder="Type your answers here."></textarea>
+            </fieldset>
+        </div>
+        <div class="openTextBox__answerText answergray u-display-none">because Tableau recognizes the years as numbers.</div>
+        <div class="btn__container">
+            <button class="btn-text openTextBox__showButton show-answer">Show Answer</button>
+            <button class="btn-text openTextBox__hideButton hide-answer u-display-none">Hide Answer</button>
+        </div>
+    </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="63bd0f69bd9de7003641f105" class="block 63bd0f69bd9de7003641f105 background-color-white remove-padding-top remove-padding-bottom is-complete">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="63bd0f69bd9de7003641f106" class="component opentextbox 63bd0f69bd9de7003641f106    is-full  is-optional"><div class="component__inner openTextBox__inner">
+    
+    
+    <div class="component__header opentextbox__header" id="63bd0f69bd9de7003641f106-header">
+      <div class="component__header-inner opentextbox__header-inner">
+    
+    
+        
+    
+        <div class="component__body opentextbox__body">
+          <div class="component__body-inner opentextbox__body-inner">
+            <ol start="3" style="list-style-type: lower-alpha;"><li>Change the type on the <strong>Year</strong> field to <strong>the correct type</strong>.</li></ol>
+          </div>
+        </div>
+    
+    
+      </div>
+    </div>
+    <div class="component__widget openTextBox__widget question-container">
+            <div class="openTextBox__preText">What happens to the data in the column?</div>
+        <div class="openTextBox__textArea-container">
+            <fieldset class="openTextBox__fieldset">
+                <legend class="openTextBox__legend">Answer Area</legend>
+                <textarea class="openTextBox__textArea" rows="3" name="answerArea" placeholder="Type your answers here."></textarea>
+            </fieldset>
+        </div>
+        <div class="openTextBox__answerText answergray u-display-none">The data changes to January 1st of each year.</div>
+        <div class="btn__container">
+            <button class="btn-text openTextBox__showButton show-answer">Show Answer</button>
+            <button class="btn-text openTextBox__hideButton hide-answer u-display-none">Hide Answer</button>
+        </div>
+    </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="63bd0fc04d4bb60023341a19" class="block 63bd0fc04d4bb60023341a19 background-color-white remove-padding-top remove-padding-bottom is-complete">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="63bd0fc04d4bb60023341a1a" class="component opentextbox 63bd0fc04d4bb60023341a1a    is-full  is-optional"><div class="component__inner openTextBox__inner">
+    
+    
+    <div class="component__header opentextbox__header" id="63bd0fc04d4bb60023341a1a-header">
+      <div class="component__header-inner opentextbox__header-inner">
+    
+    
+        
+    
+        <div class="component__body opentextbox__body">
+          <div class="component__body-inner opentextbox__body-inner">
+            <ol start="4" style="list-style-type: lower-alpha;"><li><p>Change the type for the Year field back to <strong>Number (whole)</strong>.</p></li><li><p>Review the fields that are contained in this dataset.</p></li></ol>
+          </div>
+        </div>
+    
+    
+      </div>
+    </div>
+    <div class="component__widget openTextBox__widget question-container">
+            <div class="openTextBox__preText">What might be another question you could answer through analysis of this data?</div>
+        <div class="openTextBox__textArea-container">
+            <fieldset class="openTextBox__fieldset">
+                <legend class="openTextBox__legend">Answer Area</legend>
+                <textarea class="openTextBox__textArea" rows="3" name="answerArea" placeholder="Type your answers here."></textarea>
+            </fieldset>
+        </div>
+        <div class="openTextBox__answerText answergray u-display-none">Answers will vary.</div>
+        <div class="btn__container">
+            <button class="btn-text openTextBox__showButton show-answer">Show Answer</button>
+            <button class="btn-text openTextBox__hideButton hide-answer u-display-none">Hide Answer</button>
+        </div>
+    </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="63bd1026410ba800ca69faf8" class="block 63bd1026410ba800ca69faf8 background-color-white remove-padding-top remove-padding-bottom">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="63bd1026410ba800ca69faf9" class="component text 63bd1026410ba800ca69faf9    is-full  "><div class="component__inner text__inner">
+  
+  
+  <div class="component__header text__header" id="63bd1026410ba800ca69faf9-header">
+    <div class="component__header-inner text__header-inner">
+  
+  
+      
+  
+      <div class="component__body text__body">
+        <div class="component__body-inner text__body-inner">
+          <h3>Part 2: Using Data to Create Meaningful Visualizations</h3><p><strong>Step 1: Question: What genre of movie gets the best scores?</strong></p><p>Let’s start with the question, “What genre of movie gets the highest audience scores?”</p><ol start="1" style="list-style-type: lower-alpha;"><li>Click the <strong>Sheet 1</strong> tab at the bottom of the screen to open the workspace. The fields in your data table are in the left panel.</li></ol><p>Note: If Tableau still shows the movies database from the previous lab, right-click on the title of the database at top left and select <strong>Close</strong>. If a popup appears, select <strong>OK</strong>.</p><ol start="2" style="list-style-type: lower-alpha;"><li><p>Drag the field Genre to the Columns shelf at the top of the workspace.</p></li><li><p>Drag the Audience score % field to the Rows shelf at the top of the workspace. The audience score is automatically shown as a sum when you move it to the Rows shelf. For this analysis, however, the average score for each genre is needed. Use the down arrow next to the SUM(Audience score%) on the Rows shelf to select Measure(Sum) &gt; Average.</p></li><li><p>Tableau should now present a column chart showing the average audience scores for each genre.</p></li></ol>
+        </div>
+      </div>
+  
+  
+    </div>
+  </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="63bd1161410ba800ca69fafb" class="block 63bd1161410ba800ca69fafb background-color-white remove-padding-top remove-padding-bottom is-complete">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="63bd1161410ba800ca69fafc" class="component opentextbox 63bd1161410ba800ca69fafc    is-full  is-optional"><div class="component__inner openTextBox__inner">
+    
+    
+    <div class="component__widget openTextBox__widget question-container">
+            <div class="openTextBox__preText">Based on the resulting column chart, which genre has the highest audience score?</div>
+        <div class="openTextBox__textArea-container">
+            <fieldset class="openTextBox__fieldset">
+                <legend class="openTextBox__legend">Answer Area</legend>
+                <textarea class="openTextBox__textArea" rows="3" name="answerArea" placeholder="Type your answers here."></textarea>
+            </fieldset>
+        </div>
+        <div class="openTextBox__answerText answergray u-display-none">Fantasy</div>
+        <div class="btn__container">
+            <button class="btn-text openTextBox__showButton show-answer">Show Answer</button>
+            <button class="btn-text openTextBox__hideButton hide-answer u-display-none">Hide Answer</button>
+        </div>
+    </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="63bd13a93b3fa00011c47bf5" class="block 63bd13a93b3fa00011c47bf5 background-color-white remove-padding-top remove-padding-bottom">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="63bd13a93b3fa00011c47bf6" class="component text 63bd13a93b3fa00011c47bf6    is-full  "><div class="component__inner text__inner">
+  
+  
+  <div class="component__header text__header" id="63bd13a93b3fa00011c47bf6-header">
+    <div class="component__header-inner text__header-inner">
+  
+  
+      
+  
+      <div class="component__body text__body">
+        <div class="component__body-inner text__body-inner">
+          <ol start="5" style="list-style-type: lower-alpha;"><li><p>To look a little deeper into this analysis, it is necessary to make sure that the highest rated genre’s audience score is based on a large number of high scores and not a very small number of very high scores, which would make the results unreliable. Add a count of the scores onto the chart by dragging the <strong>Audience score %</strong> field to the <strong>Row</strong> shelf. This will cause a second chart to open showing the number of ratings per genre.</p></li><li><p>Use the dropdown arrow on the new <strong>Audience score %</strong> entry to change the measure from SUM to COUNT by selecting <strong>Measure(Sum) &gt; Count</strong>. Questions:</p></li></ol>
+        </div>
+      </div>
+  
+  
+    </div>
+  </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="63bd144c410ba800ca69fafd" class="block 63bd144c410ba800ca69fafd background-color-white remove-padding-top remove-padding-bottom is-complete">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="63bd144c410ba800ca69fafe" class="component opentextbox 63bd144c410ba800ca69fafe    is-full  is-optional"><div class="component__inner openTextBox__inner">
+    
+    
+    <div class="component__widget openTextBox__widget question-container">
+            <div class="openTextBox__preText">Which genre has the highest number of scores?</div>
+        <div class="openTextBox__textArea-container">
+            <fieldset class="openTextBox__fieldset">
+                <legend class="openTextBox__legend">Answer Area</legend>
+                <textarea class="openTextBox__textArea" rows="3" name="answerArea" placeholder="Type your answers here."></textarea>
+            </fieldset>
+        </div>
+        <div class="openTextBox__answerText answergray u-display-none">Comedy</div>
+        <div class="btn__container">
+            <button class="btn-text openTextBox__showButton show-answer">Show Answer</button>
+            <button class="btn-text openTextBox__hideButton hide-answer u-display-none">Hide Answer</button>
+        </div>
+    </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="63bd147778b26500186798cb" class="block 63bd147778b26500186798cb background-color-white remove-padding-top remove-padding-bottom is-complete">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="63bd147778b26500186798cc" class="component opentextbox 63bd147778b26500186798cc    is-full  is-optional"><div class="component__inner openTextBox__inner">
+    
+    
+    <div class="component__widget openTextBox__widget question-container">
+            <div class="openTextBox__preText">How does the count of scores for the genre with the highest audience score impact the analysis?</div>
+        <div class="openTextBox__textArea-container">
+            <fieldset class="openTextBox__fieldset">
+                <legend class="openTextBox__legend">Answer Area</legend>
+                <textarea class="openTextBox__textArea" rows="3" name="answerArea" placeholder="Type your answers here."></textarea>
+            </fieldset>
+        </div>
+        <div class="openTextBox__answerText answergray u-display-none">The fantasy genre has very few audience scores and they are all high, so the analysis is likely not accurate. If this was an actual client analysis, it would be necessary to obtain a dataset with a similar and high number of ratings for each genre.</div>
+        <div class="btn__container">
+            <button class="btn-text openTextBox__showButton show-answer">Show Answer</button>
+            <button class="btn-text openTextBox__hideButton hide-answer u-display-none">Hide Answer</button>
+        </div>
+    </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="63bd14c73b3fa00011c47bf8" class="block 63bd14c73b3fa00011c47bf8 background-color-white remove-padding-top remove-padding-bottom">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="63bd14c73b3fa00011c47bf9" class="component text 63bd14c73b3fa00011c47bf9    is-full  "><div class="component__inner text__inner">
+  
+  
+  <div class="component__header text__header" id="63bd14c73b3fa00011c47bf9-header">
+    <div class="component__header-inner text__header-inner">
+  
+  
+      
+  
+      <div class="component__body text__body">
+        <div class="component__body-inner text__body-inner">
+          <p><strong>Question: Which movie studio produced the most revenue in a specific year?</strong></p><p>To answer the second question, you will need to start a new worksheet for this analysis.</p><ol start="7" style="list-style-type: lower-alpha;"><li><p>Open a second sheet using the leftmost <strong>+</strong> icon at the bottom of the screen.</p></li><li><p>Start by dragging the <strong>Lead Studio</strong> to the Columns shelf. Then add <strong>Year</strong> to the Rows shelf. A grid showing which studios had data in which years opens.</p></li><li><p>Find the bars associated with the year 2010 in the grid; there are 11. Select them by drawing a box over all of them with your mouse or by selecting them individually. Right-click or hover over the selected bars and choose <strong>Keep Only</strong>. The other parts of the grid disappear.</p></li><li><p>Now drag <strong>Worldwide Gross</strong> to the Rows shelf as well and remove Year (right click and select Remove or click on the bubble and hit the delete key). You should see a column graph. In this context, “Gross” means the total amount of money the studio made that year from the movies in the dataset.</p></li></ol><p>Note: Make sure your window is wide enough to see all of the studios in the dataset.</p>
+        </div>
+      </div>
+  
+  
+    </div>
+  </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="63bd157d78b26500186798cf" class="block 63bd157d78b26500186798cf background-color-white remove-padding-top remove-padding-bottom is-complete">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="63bd157e78b26500186798d0" class="component opentextbox 63bd157e78b26500186798d0    is-full  is-optional"><div class="component__inner openTextBox__inner">
+    
+    
+    <div class="component__widget openTextBox__widget question-container">
+            <div class="openTextBox__preText">Which studio took in the most money on the movies in the dataset during 2010?</div>
+        <div class="openTextBox__textArea-container">
+            <fieldset class="openTextBox__fieldset">
+                <legend class="openTextBox__legend">Answer Area</legend>
+                <textarea class="openTextBox__textArea" rows="3" name="answerArea" placeholder="Type your answers here."></textarea>
+            </fieldset>
+        </div>
+        <div class="openTextBox__answerText answergray u-display-none">Warner Bros.</div>
+        <div class="btn__container">
+            <button class="btn-text openTextBox__showButton show-answer">Show Answer</button>
+            <button class="btn-text openTextBox__hideButton hide-answer u-display-none">Hide Answer</button>
+        </div>
+    </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="63bd15a9410ba800ca69faff" class="block 63bd15a9410ba800ca69faff background-color-white remove-padding-top remove-padding-bottom is-complete">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="63bd15a9410ba800ca69fb00" class="component opentextbox 63bd15a9410ba800ca69fb00    is-full  is-optional"><div class="component__inner openTextBox__inner">
+    
+    
+    <div class="component__header opentextbox__header" id="63bd15a9410ba800ca69fb00-header">
+      <div class="component__header-inner opentextbox__header-inner">
+    
+    
+        
+    
+        <div class="component__body opentextbox__body">
+          <div class="component__body-inner opentextbox__body-inner">
+            <ol start="11" style="list-style-type: lower-alpha;"><li>Now let’s adjust the measures to show the average gross per picture: in the Rows shelf, change the <strong>SUM(Worldwide Gross)</strong> to an AVG function by using the dropdown arrow to select <strong>Measure(Sum) &gt; Average</strong>.</li></ol>
+          </div>
+        </div>
+    
+    
+      </div>
+    </div>
+    <div class="component__widget openTextBox__widget question-container">
+            <div class="openTextBox__preText">Now which studio took in the most average gross revenue per picture?</div>
+        <div class="openTextBox__textArea-container">
+            <fieldset class="openTextBox__fieldset">
+                <legend class="openTextBox__legend">Answer Area</legend>
+                <textarea class="openTextBox__textArea" rows="3" name="answerArea" placeholder="Type your answers here."></textarea>
+            </fieldset>
+        </div>
+        <div class="openTextBox__answerText answergray u-display-none">Disney</div>
+        <div class="btn__container">
+            <button class="btn-text openTextBox__showButton show-answer">Show Answer</button>
+            <button class="btn-text openTextBox__hideButton hide-answer u-display-none">Hide Answer</button>
+        </div>
+    </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="63bd16074d4bb60023341a1c" class="block 63bd16074d4bb60023341a1c background-color-white remove-padding-top remove-padding-bottom is-complete">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="63bd16084d4bb60023341a1d" class="component opentextbox 63bd16084d4bb60023341a1d    is-full  is-optional"><div class="component__inner openTextBox__inner">
+    
+    
+    <div class="component__header opentextbox__header" id="63bd16084d4bb60023341a1d-header">
+      <div class="component__header-inner opentextbox__header-inner">
+    
+    
+        
+    
+        <div class="component__body opentextbox__body">
+          <div class="component__body-inner opentextbox__body-inner">
+            <ol start="12" style="list-style-type:lower-alpha"><li>You can rename the sheets by double clicking the sheet name ("Sheet 3,” for example) and entering new names.</li></ol><h2>Reflection Question</h2>
+          </div>
+        </div>
+    
+    
+      </div>
+    </div>
+    <div class="component__widget openTextBox__widget question-container">
+            <div class="openTextBox__preText">Think about how the different views of the same dataset give different insights and tell different stories about the data. Why is it important to have representative and relevant data when you begin your analysis?</div>
+        <div class="openTextBox__textArea-container">
+            <fieldset class="openTextBox__fieldset">
+                <legend class="openTextBox__legend">Answer Area</legend>
+                <textarea class="openTextBox__textArea" rows="3" name="answerArea" placeholder="Type your answers here."></textarea>
+            </fieldset>
+        </div>
+        <div class="openTextBox__answerText answergray u-display-none">Answers will vary.</div>
+        <div class="btn__container">
+            <button class="btn-text openTextBox__showButton show-answer">Show Answer</button>
+            <button class="btn-text openTextBox__hideButton hide-answer u-display-none">Hide Answer</button>
+        </div>
+    </div>
+</div>
+</div></div>
+
+</div>
+</div></div><div class="openTextBoxController-inner"><div class="openTextBoxController__button-container">
+  <button class="btn-text showhidebtn openTextBoxController__showButton">Show All Answers</button>
+  <button class="btn-text showhidebtn openTextBoxController__hideButton u-display-none">Hide All Answers</button>
+  <button class="btn-text resetbtn openTextBoxController__resetButton">Clear All Responses</button>
+</div>
+  <div class="post-text"><hr>© 2017 - 2023 Cisco and/or its affiliates. All rights reserved. Cisco Public</div>
+</div>
+
+</div>
+</body>
+<script>
+    window.addEventListener("load", function () {
+      console.log("loaded");
+      document.querySelectorAll(".answergray").forEach(function (ele) {
+        ele.classList.add("u-display-none");
+      });
+      document.querySelectorAll(".hide-answer").forEach(function (ele) {
+        ele.classList.add("u-display-none");
+      });
+      document.querySelectorAll(".show-answer").forEach(function (ele) {
+        ele.addEventListener("click", function (e) {
+          e.currentTarget.nextElementSibling.classList.remove("u-display-none");
+          e.currentTarget
+            .closest(".question-container")
+            .querySelectorAll(".answergray")
+            .forEach(function (ele) {
+              ele.classList.remove("u-display-none");
+            });
+          ele.classList.add("u-display-none");
+        });
+      });
+      document.querySelectorAll(".hide-answer").forEach(function (ele) {
+        ele.addEventListener("click", function (e) {
+          e.currentTarget.previousElementSibling.classList.remove("u-display-none");
+          e.currentTarget
+            .closest(".question-container")
+            .querySelectorAll(".answergray")
+            .forEach(function (ele) {
+              ele.classList.add("u-display-none");
+            });
+          ele.classList.add("u-display-none");
+        });
+      });
+      var event = new Event("click", {
+        bubbles: true,
+        cancelable: true,
+      });
+      document
+        .querySelectorAll(".openTextBoxController__showButton")
+        .forEach(function (ele) {
+          ele.addEventListener("click", function (e) {
+            e.currentTarget.nextElementSibling.classList.remove("u-display-none");
+            ele.classList.add("u-display-none");
+            document.querySelectorAll(".show-answer").forEach(function (ele) {
+              ele.dispatchEvent(event);
+            });
+          });
+        });
+
+      document
+        .querySelectorAll(".openTextBoxController__hideButton")
+        .forEach(function (ele) {
+          ele.addEventListener("click", function (e) {
+            e.currentTarget.previousElementSibling.classList.remove("u-display-none");
+            ele.classList.add("u-display-none");
+            document.querySelectorAll(".hide-answer").forEach(function (ele) {
+              ele.dispatchEvent(event);
+            });
+          });
+        });
+
+      document
+        .querySelectorAll(".openTextBoxController__resetButton")
+        .forEach(function (ele) {
+          ele.addEventListener("click", function (e) {
+            document.querySelectorAll("textArea").forEach(function (ele) {
+              ele.value = "";
+            });
+          });
+        });
+    });
+  </script>
+  </html>

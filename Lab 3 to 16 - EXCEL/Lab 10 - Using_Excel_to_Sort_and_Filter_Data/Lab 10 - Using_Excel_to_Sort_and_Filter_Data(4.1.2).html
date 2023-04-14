@@ -1,0 +1,588 @@
+<!DOCTYPE html><html><head>
+<style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 1rem;
+      }
+      ol,
+      ul {
+        margin-bottom: 0in;
+      }
+      table {
+        margin-top: 1rem;
+        border: 1px solid gray;
+        width: 7in;
+        border-collapse: collapse;
+      }
+
+      table > thead > tr > .openTableTextBox__table-header-data {
+        text-align: center;
+        margin-top: 6pt;
+        margin-right: 0in;
+        margin-bottom: 6pt;
+        margin-left: 0in;
+        text-align: center;
+        line-height: 115%;
+        page-break-after: avoid;
+        font-size: 10pt;
+        font-family: "Arial", sans-serif;
+        font-weight: bold;
+        background: #dbe5f1;
+        padding: 0.5rem;
+      }
+      .openTableTextBox__answerText
+        table
+        > thead
+        > tr
+        > .openTableTextBox__table-header-data {
+        background: #f2dbdb !important;
+      }
+      .openTextBox__textArea-container {
+        margin-top: 6pt;
+        margin-right: 0in;
+        margin-bottom: 6pt;
+        font-size: 10pt;
+        font-family: "Arial", sans-serif;
+        width: 50%;
+      }
+      .openTableTextBox__fieldset {
+        padding: 5px;
+      }
+      td {
+        margin-top: 3pt;
+        margin-right: 0in;
+        margin-bottom: 3pt;
+        margin-left: 0in;
+        font-size: 10pt;
+        font-family: "Arial", sans-serif;
+        width: 98.85pt;
+        border: solid windowtext 1pt;
+        border-top: none;
+        padding: 0.7pt 5.75pt 0.7pt 5.75pt;
+      }
+      textarea {
+        width: 100%;
+      }
+      .answergray {
+        padding: 0.2rem;
+      }
+
+      .openTableTextBox__widget {
+        margin-top: 6pt;
+        margin-right: 0in;
+        margin-bottom: 6pt;
+        margin-left: 0.25in;
+      }
+
+      .show-answer,
+      .hide-answer {
+        padding: 0.5rem 1rem;
+        background-color: #3d692b;
+        color: #fff;
+        border: 0px;
+        cursor: pointer;
+        margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
+      }
+
+      .openTextBoxController__button-container {
+        display: flex;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+      }
+
+      .openTextBoxController__button-container .btn-text {
+        margin: 10px;
+      }
+
+      .btn-text {
+        border: 0px;
+        padding: 0.5rem 1rem;
+        background-color: #3d692b;
+        color: #fff;
+        border-radius: 0;
+        cursor: pointer;
+      }
+
+      .u-display-none {
+        display: none;
+      }
+      .openTextBox__postText, openTableTextBox__postText {
+        margin-top: 0.5rem;
+      }
+      .edit-comment {
+        display: none;
+      }
+      .js-heading-inner {
+        display: none;
+      }
+      .block__title-inner,
+      .article__title-inner {
+        display: block;
+        font-size: 1.5em;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+      }
+      h2{
+        font-size: 1.25em;
+      }
+      h3{
+        font-size: 1.125em;
+      }
+      .table
+        > .table-inner
+        > .table-wrapper
+        > .table-widget
+        > table
+        > tbody
+        > tr
+        > th {
+        border: solid windowtext 1pt;
+      }
+      .openTableTextBox__answerText
+        table
+        > thead
+        > tr
+        > .openTableTextBox__table-header-data {
+        background: #f2dbdb !important;
+      }
+      .command-output > .table-inner > .table-wrapper > .table-widget > table,
+      .command-output
+        > .table-inner
+        > .table-wrapper
+        > .table-widget
+        > table
+        > tbody
+        > tr
+        > td,
+      .command-output
+        > .table-inner
+        > .table-wrapper
+        > .table-widget
+        > table
+        > tbody
+        > tr
+        > th {
+        border: none !important;
+        text-align: right !important;
+      }
+      .simple-table > .table-inner > .table-wrapper{
+        margin-left: 1.5rem;
+      }
+      .openTextBox__widget {
+        margin-left: 1.5rem;
+      }
+      img {
+        width: 30%;
+        height: auto;
+        margin-top: 1rem;
+        margin-left: 3rem;
+      }
+      .answergray {
+        background-color: #ccc;
+      }
+      .openTableTextBox__widget > .answergray {
+        background-color: #fff !important;
+      }
+      li > ul,ol > li{
+        margin-left: 0px !important;
+      }
+      img {
+        width: 30%;
+        height: auto;
+        margin-top: 1rem;
+        margin-left: 3rem;
+      }
+    </style>
+
+</head><body>
+
+<div class="article__inner">
+
+
+  <div class="block__container">
+  <div data-adapt-id="63a060da31f4240032c46418" class="block 63a060da31f4240032c46418 background-color-white remove-padding-top remove-padding-bottom is-optional">
+
+<div class="block__inner">
+
+  <div class="block__header">
+    <div class="block__header-inner">
+
+      <div class="block__title">
+
+        <div class="js-heading is-incomplete">
+
+<div id="63a060da31f4240032c46418-heading" class="js-heading-inner" role="heading" aria-level="3">
+
+  <span class="aria-label">
+      Lab - Using Excel to Sort and Filter Data​
+  </span>
+
+</div>
+</div><div class="block__title-inner" aria-hidden="true">
+          Lab - Using Excel to Sort and Filter Data​
+        </div>
+
+      </div>
+
+
+
+    </div>
+  </div>
+
+  <div class="component__container">
+  <div data-adapt-id="63a061c831f4240032c46419" class="component text 63a061c831f4240032c46419    is-full  "><div class="component__inner text__inner">
+  
+  
+  <div class="component__header text__header" id="63a061c831f4240032c46419-header">
+    <div class="component__header-inner text__header-inner">
+  
+  
+      
+  
+      <div class="component__body text__body">
+        <div class="component__body-inner text__body-inner">
+          <h2>Objectives</h2><p>In this lab, you will learn the basics of sorting and filtering data in Microsoft Excel.</p><p><strong>Part 1: Download and Prepare a Sample Data Set</strong></p><p><strong>Part 2: Sort the Data</strong></p><p><strong>Part 3: Filter the Data</strong></p><h2>Background / Scenario</h2><p>Sorting and filtering the data facilitates data analysis through grouping and including or excluding specific data. This ensures consistency, accuracy, and better decision-making processes.</p><h2>Required Resources</h2><ul><li>Mobile device or PC/laptop with a browser, Microsoft Excel, and internet access</li></ul><p><strong>Note</strong>: The precise steps to format and manipulate data in Excel can vary between platforms and versions. The instructions in this lab are based on the free version of Excel available from Office.com and may have to be modified to match the user’s platform, software, or version to achieve the results shown in this lab.</p>
+        </div>
+      </div>
+  
+  
+    </div>
+  </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="63a0628a31f4240032c4641b" class="block 63a0628a31f4240032c4641b background-color-white remove-padding-top remove-padding-bottom is-optional">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="63a0628a31f4240032c4641c" class="component text 63a0628a31f4240032c4641c    is-full  "><div class="component__inner text__inner">
+  
+  
+  <div class="component__header text__header" id="63a0628a31f4240032c4641c-header">
+    <div class="component__header-inner text__header-inner">
+  
+  
+      
+  
+      <div class="component__body text__body">
+        <div class="component__body-inner text__body-inner">
+          <h2>Instructions</h2><h3>Part 1: Download and Prepare a Sample Data Set</h3><p><strong>Step 1: Adjust column widths.</strong></p><ol start="1" style="list-style-type:lower-alpha"><li><p>Open the downloaded sample CSV file <strong>Bike Sales_Sort_Lab 4.1.2.csv</strong> in Excel.</p></li><li><p>To make all the data visible and more readable, enlarge the column widths to fit:<br>1) Select the entire worksheet by clicking the top left corner. (The triangle left of <strong>column A</strong>.)<br>2) Move the cursor to the line between two columns, for example, columns A and B, click and drag the mouse to the right until all data is visible.</p></li><li><p>All columns are now wider and the same width. Adjust each column width so the column is only wide enough to contain the data.</p></li><li><p>Note that text data is left justified in each cell, whereas numeric data is right justified.</p></li></ol><p><strong>Step 2: Freeze top row.</strong></p><p>Because there are many rows of data, column headings will disappear when you scroll down the worksheet. You can freeze the top row so that this information is always visible.</p><ol start="1" style="list-style-type:lower-alpha"><li>Click <strong>View</strong> &gt; <strong>Freeze Panes</strong> &gt; Select <strong>Freeze Top Row</strong>.</li><li>Now if you scroll down, the heading for each column is still displayed.<br><br><em>Note: The data has been changed for readability only, and it has not been sorted or manipulated. Because this is a text (CSV) file, any changes to presentation of the data (such as column width or freezing the top row) will not be retained unless the file is saved in Excel spreadsheet format.</em></li></ol>
+        </div>
+      </div>
+  
+  
+    </div>
+  </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="63a13dc3e482ab02d5c2c5ee" class="block 63a13dc3e482ab02d5c2c5ee background-color-white remove-padding-top remove-padding-bottom is-optional">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="63a13dc3e482ab02d5c2c5ef" class="component text 63a13dc3e482ab02d5c2c5ef    is-full  "><div class="component__inner text__inner">
+  
+  
+  <div class="component__header text__header" id="63a13dc3e482ab02d5c2c5ef-header">
+    <div class="component__header-inner text__header-inner">
+  
+  
+      
+  
+      <div class="component__body text__body">
+        <div class="component__body-inner text__body-inner">
+          <h3>Part 2: Sort the Data</h3><p>In this part of the lab, you will sort the data by country and sub-category.</p><p><strong>Step 1: Select the Sort tool.</strong></p><ol start="1" style="list-style-type:lower-alpha"><li><p>Press <strong>Ctrl+A</strong> to select all the data.</p></li><li><p>Click <strong>Home</strong> &gt; click <strong>Sort &amp; Filter</strong> &gt; select <strong>Custom Sort</strong>.</p></li></ol><p><strong>Step 2: Select the Sort criteria.</strong></p><ol start="1" style="list-style-type:lower-alpha"><li><p>Verify that the <strong>My data has headers</strong> checkbox is selected.</p></li><li><p>Select <strong>Country</strong> as the Column for the Sort by dropdown list. Select <strong>Sort Ascending</strong> as the order.</p></li><li><p>To sort by <strong>Sub-category</strong>, click <strong>+ Add Level</strong> and select <strong>Sub_Category</strong> as the column. For Order, select <strong>Sort Ascending</strong> from the drop down.</p></li><li><p>Click <strong>OK</strong> to continue. Note that the data is now sorted in ascending order by Country and then Sub-category.</p></li></ol><p>To clear sorting and filtering, select the column being sorted (<strong>Sub_Category</strong>, in this case). Then click on the Sort &amp; Filter button in the toolbar and choose <strong>Clear</strong>.</p><p>If you need to remove all filters in a worksheet, you can select the Sort &amp; Filter tools and then click on the Filter option in the drop-down menu.</p>
+        </div>
+      </div>
+  
+  
+    </div>
+  </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="63a13efce482ab02d5c2c5f0" class="block 63a13efce482ab02d5c2c5f0 background-color-white remove-padding-top remove-padding-bottom is-optional">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="63a13efce482ab02d5c2c5f1" class="component text 63a13efce482ab02d5c2c5f1    is-full  "><div class="component__inner text__inner">
+  
+  
+  <div class="component__header text__header" id="63a13efce482ab02d5c2c5f1-header">
+    <div class="component__header-inner text__header-inner">
+  
+  
+      
+  
+      <div class="component__body text__body">
+        <div class="component__body-inner text__body-inner">
+          <h3>Part 3: Filter the Data</h3><p>In this part, you will convert the data into a table and filter the data.</p><p><strong>Step 1: Covert data to a table.</strong></p><ol start="1" style="list-style-type:lower-alpha"><li><p>Before filtering the data information, it is best to convert it to a table. Use <strong>Ctrl+A</strong> to select all the data.</p></li><li><p>To convert the data, click <strong>Home</strong> &gt; select <strong>Format as Table</strong>.</p></li><li><p>Select a table style of your choosing. Ensure that the checkbox <strong>My table has headers</strong> is selected. Click <strong>OK</strong> to accept the range of cells to be in the table.</p></li><li><p>Under Table Name, replace Table1 with <strong>BikeSales</strong> as the table name.</p></li></ol><p><strong>Step 2: Set and display filtered data.</strong></p><ol start="1" style="list-style-type:lower-alpha"><li>Note the drop-down arrows at the top of each column of the table. By clicking the drop down on each column, you can filter the data to view only rows that match those specific values.<br>For example, click the drop-down arrow on the Age_Group column. Unselect the <strong>(Select all)</strong> checkbox and select <strong>Young Adults (25-34)</strong>.</li></ol>
+        </div>
+      </div>
+  
+  
+    </div>
+  </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="63a13ffc2bb2a90176586c4d" class="block 63a13ffc2bb2a90176586c4d background-color-white remove-padding-top remove-padding-bottom is-complete is-optional">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="63a1400f78e1f1022b2b8e04" class="component graphic 63a1400f78e1f1022b2b8e04    is-left  is-optional"><div class="component__inner graphic__inner">
+
+  
+  
+
+  <div class="component__widget graphic__widget">
+
+    <div class="graphic__image-container">
+
+      <img loading="eager" class="graphic__image js-graphic-set-image-src" src="data:image/png;base64,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" data-large="course/en-US/assets/83e42ad3384d862f2020e009be403f57893aa5a0.png" data-small="course/en-US/assets/83e42ad3384d862f2020e009be403f57893aa5a0.png" aria-label="4.1.2 Lab image 1">
+
+
+    </div>
+
+  </div>
+
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="63a1409778e1f1022b2b8e08" class="block 63a1409778e1f1022b2b8e08 background-color-white remove-padding-top remove-padding-bottom is-optional">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="63a1409778e1f1022b2b8e09" class="component text 63a1409778e1f1022b2b8e09    is-full  "><div class="component__inner text__inner">
+  
+  
+  <div class="component__header text__header" id="63a1409778e1f1022b2b8e09-header">
+    <div class="component__header-inner text__header-inner">
+  
+  
+      
+  
+      <div class="component__body text__body">
+        <div class="component__body-inner text__body-inner">
+          <p>Note the row numbers on the left of the table. The data has not been moved; filtering is displaying only those rows that you chose.</p><p>Note the filtered column, <strong>Age_Group</strong>, shows a Filter icon instead of the dropdown arrow to indicate the data is being filtered by that column.</p><ol start="2" style="list-style-type:lower-alpha"><li>To show all data in a column, click the Age Group drop down button again and check the<strong> (Select all) checkbox</strong>.</li></ol><h2>Reflection Questions</h2><p>Use data sorting and filtering on relevant columns to determine the following:</p>
+        </div>
+      </div>
+  
+  
+    </div>
+  </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="63a1415dab744600fcab4afa" class="block 63a1415dab744600fcab4afa background-color-white remove-padding-top remove-padding-bottom is-complete is-optional">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="63a1416b887d6402fbd55680" class="component opentextbox 63a1416b887d6402fbd55680    is-full  is-optional"><div class="component__inner openTextBox__inner">
+    
+    
+    <div class="component__widget openTextBox__widget question-container">
+            <div class="openTextBox__preText">1. How many Senior customers were there in December 2021?</div>
+        <div class="openTextBox__textArea-container">
+            <fieldset class="openTextBox__fieldset">
+                <legend class="openTextBox__legend">Answer Area</legend>
+                <textarea class="openTextBox__textArea" rows="3" name="answerArea" placeholder="Type your answer here"></textarea>
+            </fieldset>
+        </div>
+        <div class="openTextBox__answerText answergray u-display-none">2</div>
+        <div class="btn__container">
+            <button class="btn-text openTextBox__showButton show-answer">Show Answer</button>
+            <button class="btn-text openTextBox__hideButton hide-answer u-display-none">Hide Answer</button>
+        </div>
+    </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="63a141f9ab744600fcab4afd" class="block 63a141f9ab744600fcab4afd background-color-white remove-padding-top remove-padding-bottom is-complete is-optional">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="63a141faab744600fcab4afe" class="component opentextbox 63a141faab744600fcab4afe    is-full  is-optional"><div class="component__inner openTextBox__inner">
+    
+    
+    <div class="component__widget openTextBox__widget question-container">
+            <div class="openTextBox__preText">2. Which three days in December had the highest profit in Germany?</div>
+        <div class="openTextBox__textArea-container">
+            <fieldset class="openTextBox__fieldset">
+                <legend class="openTextBox__legend">Answer Area</legend>
+                <textarea class="openTextBox__textArea" rows="3" name="answerArea" placeholder="Type your answer here"></textarea>
+            </fieldset>
+        </div>
+        <div class="openTextBox__answerText answergray u-display-none">December 14, December 7, and December 18</div>
+        <div class="btn__container">
+            <button class="btn-text openTextBox__showButton show-answer">Show Answer</button>
+            <button class="btn-text openTextBox__hideButton hide-answer u-display-none">Hide Answer</button>
+        </div>
+    </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="63a1422742125e01224b99e9" class="block 63a1422742125e01224b99e9 background-color-white remove-padding-top remove-padding-bottom is-complete is-optional">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="63a1422742125e01224b99ea" class="component opentextbox 63a1422742125e01224b99ea    is-full  is-optional"><div class="component__inner openTextBox__inner">
+    
+    
+    <div class="component__widget openTextBox__widget question-container">
+            <div class="openTextBox__preText">3. Which country and state had the most revenue in one day?</div>
+        <div class="openTextBox__textArea-container">
+            <fieldset class="openTextBox__fieldset">
+                <legend class="openTextBox__legend">Answer Area</legend>
+                <textarea class="openTextBox__textArea" rows="3" name="answerArea" placeholder="Type your answer here"></textarea>
+            </fieldset>
+        </div>
+        <div class="openTextBox__answerText answergray u-display-none">United States, California, on December 5</div>
+        <div class="btn__container">
+            <button class="btn-text openTextBox__showButton show-answer">Show Answer</button>
+            <button class="btn-text openTextBox__hideButton hide-answer u-display-none">Hide Answer</button>
+        </div>
+    </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="63a142532bb2a90176586c50" class="block 63a142532bb2a90176586c50 background-color-white remove-padding-top remove-padding-bottom is-complete is-optional">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="63a142532bb2a90176586c51" class="component opentextbox 63a142532bb2a90176586c51    is-full  is-optional"><div class="component__inner openTextBox__inner">
+    
+    
+    <div class="component__widget openTextBox__widget question-container">
+            <div class="openTextBox__preText">4. In which US state were the most sales made in December 2021? Remember that each row represents one sale.</div>
+        <div class="openTextBox__textArea-container">
+            <fieldset class="openTextBox__fieldset">
+                <legend class="openTextBox__legend">Answer Area</legend>
+                <textarea class="openTextBox__textArea" rows="3" name="answerArea" placeholder="Type your answer here"></textarea>
+            </fieldset>
+        </div>
+        <div class="openTextBox__answerText answergray u-display-none">California</div>
+        <div class="btn__container">
+            <button class="btn-text openTextBox__showButton show-answer">Show Answer</button>
+            <button class="btn-text openTextBox__hideButton hide-answer u-display-none">Hide Answer</button>
+        </div>
+            <div class="openTextBox__postText">Try and examine other filters of your choosing.</div>
+    </div>
+</div>
+</div></div>
+
+</div>
+</div></div><div class="openTextBoxController-inner"><div class="openTextBoxController__button-container">
+  <button class="btn-text showhidebtn openTextBoxController__showButton">Show All Answer</button>
+  <button class="btn-text showhidebtn openTextBoxController__hideButton u-display-none">Hide All Answer</button>
+  <button class="btn-text resetbtn openTextBoxController__resetButton">Clear All Responses</button>
+</div>
+  <div class="post-text"><hr>© 2017 - 2023 Cisco and/or its affiliates. All rights reserved. Cisco Public</div>
+</div>
+
+</div>
+</body>
+<script>
+    window.addEventListener("load", function () {
+      console.log("loaded");
+      document.querySelectorAll(".answergray").forEach(function (ele) {
+        ele.classList.add("u-display-none");
+      });
+      document.querySelectorAll(".hide-answer").forEach(function (ele) {
+        ele.classList.add("u-display-none");
+      });
+      document.querySelectorAll(".show-answer").forEach(function (ele) {
+        ele.addEventListener("click", function (e) {
+          e.currentTarget.nextElementSibling.classList.remove("u-display-none");
+          e.currentTarget
+            .closest(".question-container")
+            .querySelectorAll(".answergray")
+            .forEach(function (ele) {
+              ele.classList.remove("u-display-none");
+            });
+          ele.classList.add("u-display-none");
+        });
+      });
+      document.querySelectorAll(".hide-answer").forEach(function (ele) {
+        ele.addEventListener("click", function (e) {
+          e.currentTarget.previousElementSibling.classList.remove("u-display-none");
+          e.currentTarget
+            .closest(".question-container")
+            .querySelectorAll(".answergray")
+            .forEach(function (ele) {
+              ele.classList.add("u-display-none");
+            });
+          ele.classList.add("u-display-none");
+        });
+      });
+      var event = new Event("click", {
+        bubbles: true,
+        cancelable: true,
+      });
+      document
+        .querySelectorAll(".openTextBoxController__showButton")
+        .forEach(function (ele) {
+          ele.addEventListener("click", function (e) {
+            e.currentTarget.nextElementSibling.classList.remove("u-display-none");
+            ele.classList.add("u-display-none");
+            document.querySelectorAll(".show-answer").forEach(function (ele) {
+              ele.dispatchEvent(event);
+            });
+          });
+        });
+
+      document
+        .querySelectorAll(".openTextBoxController__hideButton")
+        .forEach(function (ele) {
+          ele.addEventListener("click", function (e) {
+            e.currentTarget.previousElementSibling.classList.remove("u-display-none");
+            ele.classList.add("u-display-none");
+            document.querySelectorAll(".hide-answer").forEach(function (ele) {
+              ele.dispatchEvent(event);
+            });
+          });
+        });
+
+      document
+        .querySelectorAll(".openTextBoxController__resetButton")
+        .forEach(function (ele) {
+          ele.addEventListener("click", function (e) {
+            document.querySelectorAll("textArea").forEach(function (ele) {
+              ele.value = "";
+            });
+          });
+        });
+    });
+  </script>
+  </html>

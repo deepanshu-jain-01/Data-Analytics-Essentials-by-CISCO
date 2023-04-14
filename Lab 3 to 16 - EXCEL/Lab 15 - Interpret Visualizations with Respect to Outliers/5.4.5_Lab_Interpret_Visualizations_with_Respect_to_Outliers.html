@@ -1,0 +1,713 @@
+<!DOCTYPE html><html><head>
+<style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 1rem;
+      }
+      ol,
+      ul {
+        margin-bottom: 0in;
+      }
+      table {
+        margin-top: 1rem;
+        border: 1px solid gray;
+        width: 7in;
+        border-collapse: collapse;
+      }
+
+      table > thead > tr > .openTableTextBox__table-header-data {
+        text-align: center;
+        margin-top: 6pt;
+        margin-right: 0in;
+        margin-bottom: 6pt;
+        margin-left: 0in;
+        text-align: center;
+        line-height: 115%;
+        page-break-after: avoid;
+        font-size: 10pt;
+        font-family: "Arial", sans-serif;
+        font-weight: bold;
+        background: #dbe5f1;
+        padding: 0.5rem;
+      }
+      .openTableTextBox__answerText
+        table
+        > thead
+        > tr
+        > .openTableTextBox__table-header-data {
+        background: #f2dbdb !important;
+      }
+      .openTextBox__textArea-container {
+        margin-top: 6pt;
+        margin-right: 0in;
+        margin-bottom: 6pt;
+        font-size: 10pt;
+        font-family: "Arial", sans-serif;
+        width: 50%;
+      }
+      .openTableTextBox__fieldset {
+        padding: 5px;
+      }
+      td {
+        margin-top: 3pt;
+        margin-right: 0in;
+        margin-bottom: 3pt;
+        margin-left: 0in;
+        font-size: 10pt;
+        font-family: "Arial", sans-serif;
+        width: 98.85pt;
+        border: solid windowtext 1pt;
+        border-top: none;
+        padding: 0.7pt 5.75pt 0.7pt 5.75pt;
+      }
+      textarea {
+        width: 100%;
+      }
+      .answergray {
+        padding: 0.2rem;
+      }
+
+      .openTableTextBox__widget {
+        margin-top: 6pt;
+        margin-right: 0in;
+        margin-bottom: 6pt;
+        margin-left: 0.25in;
+      }
+
+      .show-answer,
+      .hide-answer {
+        padding: 0.5rem 1rem;
+        background-color: #3d692b;
+        color: #fff;
+        border: 0px;
+        cursor: pointer;
+        margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
+      }
+
+      .openTextBoxController__button-container {
+        display: flex;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+      }
+
+      .openTextBoxController__button-container .btn-text {
+        margin: 10px;
+      }
+
+      .btn-text {
+        border: 0px;
+        padding: 0.5rem 1rem;
+        background-color: #3d692b;
+        color: #fff;
+        border-radius: 0;
+        cursor: pointer;
+      }
+
+      .u-display-none {
+        display: none;
+      }
+      .openTextBox__postText, openTableTextBox__postText {
+        margin-top: 0.5rem;
+      }
+      .edit-comment {
+        display: none;
+      }
+      .js-heading-inner {
+        display: none;
+      }
+      .block__title-inner,
+      .article__title-inner {
+        display: block;
+        font-size: 1.5em;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+      }
+      h2{
+        font-size: 1.25em;
+      }
+      h3{
+        font-size: 1.125em;
+      }
+      .table
+        > .table-inner
+        > .table-wrapper
+        > .table-widget
+        > table
+        > tbody
+        > tr
+        > th {
+        border: solid windowtext 1pt;
+      }
+      .openTableTextBox__answerText
+        table
+        > thead
+        > tr
+        > .openTableTextBox__table-header-data {
+        background: #f2dbdb !important;
+      }
+      .command-output > .table-inner > .table-wrapper > .table-widget > table,
+      .command-output
+        > .table-inner
+        > .table-wrapper
+        > .table-widget
+        > table
+        > tbody
+        > tr
+        > td,
+      .command-output
+        > .table-inner
+        > .table-wrapper
+        > .table-widget
+        > table
+        > tbody
+        > tr
+        > th {
+        border: none !important;
+        text-align: right !important;
+      }
+      .simple-table > .table-inner > .table-wrapper{
+        margin-left: 1.5rem;
+      }
+      .openTextBox__widget {
+        margin-left: 1.5rem;
+      }
+      img {
+        width: 30%;
+        height: auto;
+        margin-top: 1rem;
+        margin-left: 3rem;
+      }
+      .answergray {
+        background-color: #ccc;
+      }
+      .openTableTextBox__widget > .answergray {
+        background-color: #fff !important;
+      }
+      li > ul,ol > li{
+        margin-left: 0px !important;
+      }
+      img {
+        width: 30%;
+        height: auto;
+        margin-top: 1rem;
+        margin-left: 3rem;
+      }
+    </style>
+
+</head><body>
+
+<div class="article__inner">
+
+
+  <div class="block__container">
+  <div data-adapt-id="63bcfa1c3b3fa00011c47bcc" class="block 63bcfa1c3b3fa00011c47bcc background-color-white remove-padding-top remove-padding-bottom">
+
+<div class="block__inner">
+
+  <div class="block__header">
+    <div class="block__header-inner">
+
+      <div class="block__title">
+
+        <div class="js-heading is-incomplete">
+
+<div id="63bcfa1c3b3fa00011c47bcc-heading" class="js-heading-inner" role="heading" aria-level="3">
+
+  <span class="aria-label">
+      Incomplete ​​Lab – Interpret Visualizations with Respect to Outliers​ 
+      </span>
+
+</div>
+</div><div class="block__title-inner" aria-hidden="true">
+          ​​Lab – Interpret Visualizations with Respect to Outliers​ 
+        </div>
+
+      </div>
+
+
+
+    </div>
+  </div>
+
+  <div class="component__container">
+  <div data-adapt-id="63bcfa1d3b3fa00011c47bd4" class="component text 63bcfa1d3b3fa00011c47bd4    is-full  "><div class="component__inner text__inner">
+  
+  
+  <div class="component__header text__header" id="63bcfa1d3b3fa00011c47bd4-header">
+    <div class="component__header-inner text__header-inner">
+  
+  
+      
+  
+      <div class="component__body text__body">
+        <div class="component__body-inner text__body-inner">
+          <h2>Objectives </h2><p>In this lab, charts and functions will be used to detect data outliers. </p><p><strong>Part 1: Examine a Dataset for Outliers </strong></p><h2>Background / Scenario </h2><p>An outlier is a value or data point that varies significantly from others in the same dataset. An outlier can result from variability in the measurements, experimental errors, or human error in entering the data. </p><p>To make sure that any data analysis is correct, outliers need to be identified and then it needs to be determined how best to treat them. </p><h2>Required Resources </h2><ul><li><p>Mobile device or PC/laptop with a browser, Microsoft 365 Excel online, and internet access </p><p><strong>Note</strong>: The precise steps to format and manipulate data in Excel can vary between platforms and versions. The instructions in this lab are based on the free version of Excel available from Office.com and may have to be modified to match the platform or version used to achieve the results shown in this lab. </p></li></ul>
+        </div>
+      </div>
+  
+  
+    </div>
+  </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="63bcfa1c3b3fa00011c47bcd" class="block 63bcfa1c3b3fa00011c47bcd background-color-white remove-padding-top remove-padding-bottom">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="63bcfa1d3b3fa00011c47bd5" class="component text 63bcfa1d3b3fa00011c47bd5    is-full  "><div class="component__inner text__inner">
+  
+  
+  <div class="component__header text__header" id="63bcfa1d3b3fa00011c47bd5-header">
+    <div class="component__header-inner text__header-inner">
+  
+  
+      
+  
+      <div class="component__body text__body">
+        <div class="component__body-inner text__body-inner">
+          <h2>Instructions</h2><h3>Part 1: Examine a Dataset for Outliers </h3><h4>Step 1: Open the data set. </h4><ol start="1" style="list-style-type:lower-alpha"><li>Download the file <strong>Bike Sales_Outlier_Lab.xlsx </strong></li><li>Upload the file to your OneDrive and open it in MS 365 Excel online. </li></ol><h4>Step 2: Use a Pivot Table to Select Data for Analysis </h4><ol start="1" style="list-style-type:lower-alpha"><li>Click any cell in the Bike Sales worksheet. </li><li>Insert a pivot table by clicking <strong>Insert </strong>&gt; <strong>PivotTable</strong>. Check that New Worksheet is selected in the <strong>Create PivotTable</strong> dialog box and click <strong>OK</strong>. <p>This adds a new worksheet for the pivot table. </p></li><li>In the <strong>PivotTable Fields</strong> Dialog box check the <strong>Date </strong>and <strong>Order_Quantity</strong> fields. <p>The pivot table is created with two columns <strong>Date </strong>and <strong>Sum of Order_Quantity</strong>. </p></li></ol><h4>Step 3: Sorting Data to Find Outliers </h4><p>One way to identify outliers is by just sorting the data. This method works with small data sets where the data is easily scanned. </p><ol start="1" style="list-style-type:lower-alpha"><li>Sort the<strong> Sum of Qrder_Quantity</strong> column from high to low <ol><li>Select the data points in the <strong>Sum of Order_Quantity</strong> column. (Do not select the Grant Total or the column header).</li><li>Click <strong>Sort &amp; Filter</strong> &gt; <strong>Sort Descending</strong>.<p>This sorts the <strong>Order_Quantity</strong> data points from highest to lowest. </p></li></ol></li></ol>
+        </div>
+      </div>
+  
+  
+    </div>
+  </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="63bcfdda3b3fa00011c47bef" class="block 63bcfdda3b3fa00011c47bef background-color-white remove-padding-top remove-padding-bottom">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="63bcfe1dd9c5f600e6b30e0a" class="component opentextbox 63bcfe1dd9c5f600e6b30e0a    is-full  "><div class="component__inner openTextBox__inner">
+    
+    
+    <div class="component__widget openTextBox__widget question-container">
+            <div class="openTextBox__preText">Which December date had the largest sales quantity? What was the sales quantity? </div>
+        <div class="openTextBox__textArea-container">
+            <fieldset class="openTextBox__fieldset">
+                <legend class="openTextBox__legend">Answer Area</legend>
+                <textarea class="openTextBox__textArea" rows="3" name="answerArea" placeholder="Type your answers here. "></textarea>
+            </fieldset>
+        </div>
+        <div class="openTextBox__answerText answergray u-display-none">Answer: December 19th. The sales quantity was 43. </div>
+        <div class="btn__container">
+            <button class="btn-text openTextBox__showButton show-answer">Show Answer</button>
+            <button class="btn-text openTextBox__hideButton hide-answer u-display-none">Hide Answer</button>
+        </div>
+    </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="63bcfea9d9c5f600e6b30e0b" class="block 63bcfea9d9c5f600e6b30e0b background-color-white remove-padding-top remove-padding-bottom">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="63bcfea9d9c5f600e6b30e0c" class="component opentextbox 63bcfea9d9c5f600e6b30e0c    is-full  "><div class="component__inner openTextBox__inner">
+    
+    
+    <div class="component__widget openTextBox__widget question-container">
+            <div class="openTextBox__preText">Review the data in the <b>Bike Sales</b> worksheet for December 19<sup>th</sup>. Which entry contributes most to the Sum of Order_Quantity in the pivot table? In other words, which order number is most responsible for the outlier? </div>
+        <div class="openTextBox__textArea-container">
+            <fieldset class="openTextBox__fieldset">
+                <legend class="openTextBox__legend">Answer Area</legend>
+                <textarea class="openTextBox__textArea" rows="3" name="answerArea" placeholder="Type your answers here. "></textarea>
+            </fieldset>
+        </div>
+        <div class="openTextBox__answerText answergray u-display-none">Answer: Row 72 order number 000261765</div>
+        <div class="btn__container">
+            <button class="btn-text openTextBox__showButton show-answer">Show Answer</button>
+            <button class="btn-text openTextBox__hideButton hide-answer u-display-none">Hide Answer</button>
+        </div>
+    </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="63bd083e5e64e000f15e7d17" class="block 63bd083e5e64e000f15e7d17 background-color-white remove-padding-top remove-padding-bottom">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="63bd083e5e64e000f15e7d18" class="component text 63bd083e5e64e000f15e7d18    is-full  "><div class="component__inner text__inner">
+  
+  
+  <div class="component__header text__header" id="63bd083e5e64e000f15e7d18-header">
+    <div class="component__header-inner text__header-inner">
+  
+  
+      
+  
+      <div class="component__body text__body">
+        <div class="component__body-inner text__body-inner">
+          <h4>Step 4: Use a Scatter Chart to Find Outliers</h4><p>A scatter chart can help to identify outliers, especially in larger datasets. </p><ol start="1" style="list-style-type:lower-alpha"><li>Return to the worksheet containing the pivot table (Sheet1). </li><li>Copy and paste the data from the pivot table into two blank columns (D and E).  Copy the header row with the data, but do not copy the Grand Total row. <p>Excel will not allow creation of a scatter plot from data in a pivot table. So, the data must be moved to other columns. </p></li><li>Insert scatter plot. <ol><li>Select the all cells in the copied data and use Sort &amp; Filter to sort it ascending. </li><li>Highlight the <strong>Sum of Order_Quantity</strong> column in the copied data.</li><li>Click on <strong>Insert </strong>&gt; <strong>Scatter </strong>and then select the top left scatter plot in the dropdown list.<p>Note that the visual of the scatter chart makes the sales for December 19<sup>th</sup> easily stand out as an outlier from the other order quantity datapoints as shown below. </p></li></ol></li></ol>
+        </div>
+      </div>
+  
+  
+    </div>
+  </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="63bcfa1c3b3fa00011c47bce" class="block 63bcfa1c3b3fa00011c47bce background-color-white remove-padding-top remove-padding-bottom">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="63bcfa1d3b3fa00011c47bd6" class="component graphic 63bcfa1d3b3fa00011c47bd6 is-left zoom-img-enabled"><div class="component__inner graphic__inner">
+
+  
+  
+
+  <div class="component__widget graphic__widget">
+
+    <div class="graphic__image-container">
+
+      <img loading="eager" class="graphic__image js-graphic-set-image-src" src="data:image/png;base64,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l21zU87b//0//3tj1pjy9SNbmNsUXsoXgupl4zSg1Sf3dftoA26rqV7JW/eCO/QLQbm/TR71gFEfxPK2TPWyeH3hNb3gNgWXal39RbdpATQt8E1PCrkc037XLdJ6n+vHWb29Vb/F0PbCU32S3GRennf9BafpyTenUZcfttI2TS8ATUGjabaqL7rVnmya9XLt15/4mh63ad06hbl6n5uOrS20lG+bqM9h23yv+0Gu6XGbejv2ul3Xq/paGmJu1j3eNr1mNPW2y9zUb7PW35rT9kPGHF8z+rxO1Ocm/X/5lq7yrUd18/q8Tv36kS3MtSX8q6ur4k9/+lPjm/pTTbrlWF7ebNtH9fubgNMLVttjOl+Za0v49dtR1atE1WFa91Na223CpqBULv76BwLGflGohpO2vjX1uW2GynCVbrWXVzbbriatu7TedsW32pe2K2AOYa5+zl2vbK/7IaDr2t8U5qqz3jWc5jDt8gJX7XGXK9vV40z7r85h09qvr8OmF5/qW2DK+e57LEP7tb3ANT2vDDE36+7klGtyW14z6r3tMjf1/qaa8n2L2/aa0ed1om1uynWUfgCt3wVsulDQdFV5rNePbGGuz63DtqtXTfuoL/j6AG76/y6hYOgntLS/TT911i+X//nPf279BGqXW35tg1y/klC/8lEf6qYrTJvOJ4ffpr61PRGtu53VdLWp/gGVus+m21ubwuO6W7y53Na9DaJ6q3TdVc8+t1m7rv11t8vWfSrP4cpcW5/TuddnaNMPPvUfwprWft1q0xw2XdGcYt229arrleumOVg3N03+2/aa0dTb5NRlburPMdXXiW17zWg6n3WvE22/NaKc4fRe6upvl6jvq2n2xnz9yBLmmp68yk+XrPuVD9VF17SP+pW7cjCrP13Ur9qlnzraHtP1ylz9uNL/l2/wrzrWTatBrOkFtepU2lVN6z8tN23fFrxzBZGm/dZ92mZr04todaG1vdeuesUkHcs687b5dLwyV78atOkY6z5tc9Nn7VePoXoVbtNzxdRhrq3P665CrXvTeXUOm56TmtbhprVfn9up1m3be5PWfYq1PNa2OWibm7ar5NW7PXN/zWhbt13npunKXPnWpm17zej6OlGfm/QcVn7QpLwyV66ntqzh8PrRKcyVi6o6CGkA0hsCy18JUv5d+n79TeIlSPkekXLbFLLSADW9d6T+01T9Xn/aR/lek+r97er7T6r7rj5m2nf116E0fTx7yHCSBqD6Vd6Drx9f+f6F+uXyun/1fYXVcynr295PUT3ndDzlE2r1OMrv1Y2q27edz5BmbSGuqW/r+pz2U95GXfd+kfoVyepMlcdS+jaZr5vPtj7n9mpbt3/5X/9z9X6Q6rnVf/Kshtf62m/7VTdNV6za+lM3q34qu+m5ou18qr9aZkjTpr6lH6rS2xSqX+XzR32G0jZNa+X9n/7szj6q71uqr/1167BpDtfN7Zjrtq1X6bWh6XkoXVWqrtV1rxnr5qZ6m2vbXjOSSfk+rvpzUte5+dvf/nZnH23vB0v7Xzd7zq8Zba/vbc9DTeu2um11fa7LGtXZm+L1o1OY6/sEue7WVtd9DbGPro/ltF3b5fI+xzjmFcc+xzX2tn1mqOkS+djHO/XjDTE3fcynPt+hHz86Q0Os/aHPaaz9DTE3Uf+xznXoxxliboZY+0Of11j7G2JuhthH9HwHD3Obbm11OeAh9tHlcRy3GWJRDfHE6GjT55j6zNDYt+36nMeY20bnpo/5mOc1xmMNMUNDrP0xznXoxxhibobwH/q8xtrfEHMTXftjnevQjzPE3AyxjyHOa/AwN8RBsQ8EEEAAAQQQQACBbgKEuW5ObIUAAggggAACCFgKEOYs28JBIYAAAggggAAC3QQIc92c2AoBBBBAAAEEELAUIMxZtoWDQgABBBBAAAEEugkQ5ro5sRUCCCCAAAIIIGApQJizbAsHhQACCCCAAAIIdBMgzHVzYisEEEAAAQQQQMBSgDBn2RYOCgEEEEAAAQQQ6CZAmOvmxFYIIIAAAggggIClwP8DPwTpFNpEM60AAAAASUVORK5CYII=" data-large="course/en-US/assets/810e100f9d391087d5275690e1425cf1bdec0886.png" data-small="course/en-US/assets/810e100f9d391087d5275690e1425cf1bdec0886.png" aria-label="de1-5.4.5-1">
+
+
+    </div>
+
+  </div>
+
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="63bd09b2bd9de7003641f0ff" class="block 63bd09b2bd9de7003641f0ff background-color-white remove-padding-top remove-padding-bottom">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="63bd09b2bd9de7003641f100" class="component text 63bd09b2bd9de7003641f100    is-full  "><div class="component__inner text__inner">
+  
+  
+  <div class="component__header text__header" id="63bd09b2bd9de7003641f100-header">
+    <div class="component__header-inner text__header-inner">
+  
+  
+      
+  
+      <div class="component__body text__body">
+        <div class="component__body-inner text__body-inner">
+          <ol start="4" style="list-style-type:decimal"><li>Delete the scatter plot. </li></ol><h4>Step 5: Using the LARGE and SMALL Functions to Find Outliers. </h4><p>If there is a lot of data the LARGE and SMALL functions can be used to extract the largest and smallest values which can help to see if there are any outliers. </p><p>For this example, the <strong>Date </strong>column is column D and the <strong>Sum of Order_Quantity</strong> column is column E. The columns in your worksheet may be different so adjust your function cells references accordingly. </p>
+        </div>
+      </div>
+  
+  
+    </div>
+  </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="63bd0aaf06763100d1322bee" class="block 63bd0aaf06763100d1322bee background-color-white remove-padding-top remove-padding-bottom">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="63bd0aaf06763100d1322bef" class="component graphic 63bd0aaf06763100d1322bef is-left zoom-img-enabled"><div class="component__inner graphic__inner">
+
+  
+  
+
+  <div class="component__widget graphic__widget">
+
+    <div class="graphic__image-container">
+
+      <img loading="eager" class="graphic__image js-graphic-set-image-src" src="data:image/png;base64,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" data-large="course/en-US/assets/b1fa609813e434c458bff32218d5c3efedb8ecd0.png" data-small="course/en-US/assets/b1fa609813e434c458bff32218d5c3efedb8ecd0.png" aria-label="de1-5.4.5-2">
+
+
+    </div>
+
+  </div>
+
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="63bd0bcd78b26500186798c9" class="block 63bd0bcd78b26500186798c9 background-color-white remove-padding-top remove-padding-bottom">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="63bd0bcd78b26500186798ca" class="component opentextbox 63bd0bcd78b26500186798ca    is-full  "><div class="component__inner openTextBox__inner">
+    
+    
+    <div class="component__header opentextbox__header" id="63bd0bcd78b26500186798ca-header">
+      <div class="component__header-inner opentextbox__header-inner">
+    
+    
+        
+    
+        <div class="component__body opentextbox__body">
+          <div class="component__body-inner opentextbox__body-inner">
+            <ol start="1" style="list-style-type:lower-alpha"><li>In an empty cell enter the function =LARGE($E$4:$E27,1). <p>This function looks at the entries from cell E4 through E27 and returns the highest value. </p></li></ol>
+          </div>
+        </div>
+    
+    
+      </div>
+    </div>
+    <div class="component__widget openTextBox__widget question-container">
+            <div class="openTextBox__preText">What value was returned? </div>
+        <div class="openTextBox__textArea-container">
+            <fieldset class="openTextBox__fieldset">
+                <legend class="openTextBox__legend">Answer Area</legend>
+                <textarea class="openTextBox__textArea" rows="3" name="answerArea" placeholder="Type your answers here. "></textarea>
+            </fieldset>
+        </div>
+        <div class="openTextBox__answerText answergray u-display-none">Answer: 43</div>
+        <div class="btn__container">
+            <button class="btn-text openTextBox__showButton show-answer">Show Answer</button>
+            <button class="btn-text openTextBox__hideButton hide-answer u-display-none">Hide Answer</button>
+        </div>
+    </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="63bd0bd9d9c5f600e6b30e0e" class="block 63bd0bd9d9c5f600e6b30e0e background-color-white remove-padding-top remove-padding-bottom">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="63bd0bdad9c5f600e6b30e0f" class="component opentextbox 63bd0bdad9c5f600e6b30e0f    is-full  "><div class="component__inner openTextBox__inner">
+    
+    
+    <div class="component__header opentextbox__header" id="63bd0bdad9c5f600e6b30e0f-header">
+      <div class="component__header-inner opentextbox__header-inner">
+    
+    
+        
+    
+        <div class="component__body opentextbox__body">
+          <div class="component__body-inner opentextbox__body-inner">
+            <ol start="2" style="list-style-type:lower-alpha"><li><p>To get the highest 5 values, modify the functions to <strong>=LARGE($E$4:$E27, ROW($1:5))</strong>. </p><p>This returns the highest five values. To return more values change the “5” at the end of the function to number of values you would like returned. </p></li></ol>
+          </div>
+        </div>
+    
+    
+      </div>
+    </div>
+    <div class="component__widget openTextBox__widget question-container">
+            <div class="openTextBox__preText">What function would return the lowest 6 values? </div>
+        <div class="openTextBox__textArea-container">
+            <fieldset class="openTextBox__fieldset">
+                <legend class="openTextBox__legend">Answer Area</legend>
+                <textarea class="openTextBox__textArea" rows="3" name="answerArea" placeholder="Type your answers here. "></textarea>
+            </fieldset>
+        </div>
+        <div class="openTextBox__answerText answergray u-display-none">Answer: =SMALL($E$4:$E27, ROW($1:6))</div>
+        <div class="btn__container">
+            <button class="btn-text openTextBox__showButton show-answer">Show Answer</button>
+            <button class="btn-text openTextBox__hideButton hide-answer u-display-none">Hide Answer</button>
+        </div>
+    </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="63bd0d175e64e000f15e7d1d" class="block 63bd0d175e64e000f15e7d1d background-color-white remove-padding-top remove-padding-bottom">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="63bd0d175e64e000f15e7d1e" class="component text 63bd0d175e64e000f15e7d1e    is-full  "><div class="component__inner text__inner">
+  
+  
+  <div class="component__header text__header" id="63bd0d175e64e000f15e7d1e-header">
+    <div class="component__header-inner text__header-inner">
+  
+  
+      
+  
+      <div class="component__body text__body">
+        <div class="component__body-inner text__body-inner">
+          <p>Once outliers are identified, the next challenge is what to do with them.  Outliers may indicate errors in the data, or may be valid data that needs to be investigated as to why it appears to be an anomaly. There are a couple of ways in which a data analyst can deal with outliers. </p><ol start="1"><li><p>Delete them. In a large dataset deleting a few outliers will likely not impact the overall analysis. However, it is important to create a copy of the data so you can research what was causing the outliers in the first place. In this example, row 72 in the Bike Sales dataset could be deleted. </p></li></ol><ol start="2"><li><p>Normalize them (Adjust their value). The value of the outliers is changed to be slightly above the maximum value in the dataset. This is a good method if it will not skew the data. There are a number of statistical methods to normalize data.  Research the various methods before randomly adjusting data values. In the example Bike Sales dataset, the December 19<sup>th</sup> Order_Quantity could be changed from 43 to 20 so it is just above the maximum value of 19. </p></li></ol>
+        </div>
+      </div>
+  
+  
+    </div>
+  </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="63bd0d8a4d4bb60023341a17" class="block 63bd0d8a4d4bb60023341a17 background-color-white remove-padding-top remove-padding-bottom">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="63bd0d8a4d4bb60023341a18" class="component opentextbox 63bd0d8a4d4bb60023341a18    is-full  "><div class="component__inner openTextBox__inner">
+    
+    
+    <div class="component__header opentextbox__header" id="63bd0d8a4d4bb60023341a18-header">
+      <div class="component__header-inner opentextbox__header-inner">
+    
+    
+        
+    
+        <div class="component__body opentextbox__body">
+          <div class="component__body-inner opentextbox__body-inner">
+            <h2>Reflection Questions</h2>
+          </div>
+        </div>
+    
+    
+      </div>
+    </div>
+    <div class="component__widget openTextBox__widget question-container">
+            <div class="openTextBox__preText">List the factors that could determine whether data outliers should or should not be considered in the final analysis of a dataset. </div>
+        <div class="openTextBox__textArea-container">
+            <fieldset class="openTextBox__fieldset">
+                <legend class="openTextBox__legend">Answer Area</legend>
+                <textarea class="openTextBox__textArea" rows="3" name="answerArea" placeholder="Type your answers here. "></textarea>
+            </fieldset>
+        </div>
+        <div class="openTextBox__answerText answergray u-display-none">Answers vary. It may include dataset size, sample size of the outlier, purpose of the analysis, significance of the outlier value with respect to the majority of the data.</div>
+        <div class="btn__container">
+            <button class="btn-text openTextBox__showButton show-answer">Show Answer</button>
+            <button class="btn-text openTextBox__hideButton hide-answer u-display-none">Hide Answer</button>
+        </div>
+    </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="63bd0dd406763100d1322bfb" class="block 63bd0dd406763100d1322bfb background-color-white remove-padding-top remove-padding-bottom">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="63bd0dd406763100d1322bfc" class="component text 63bd0dd406763100d1322bfc    is-full  "><div class="component__inner text__inner">
+  
+  
+  <div class="component__header text__header" id="63bd0dd406763100d1322bfc-header">
+    <div class="component__header-inner text__header-inner">
+  
+  
+      
+  
+      <div class="component__body text__body">
+        <div class="component__body-inner text__body-inner">
+          <h2>Challenge Activity</h2><p>Consider scenarios where data outliers could have significant impact on the final data analysis if excluded from consideration. </p>
+        </div>
+      </div>
+  
+  
+    </div>
+  </div>
+</div>
+</div></div><div class="openTextBoxController-inner"><div class="openTextBoxController__button-container">
+  <button class="btn-text showhidebtn openTextBoxController__showButton">Show All Answers</button>
+  <button class="btn-text showhidebtn openTextBoxController__hideButton u-display-none">Hide All Answers</button>
+  <button class="btn-text resetbtn openTextBoxController__resetButton">Clear My Responses</button>
+</div>
+  <div class="post-text"><hr>© 2017 - 2023 Cisco and/or its affiliates. All rights reserved. Cisco Public</div>
+</div>
+
+</div>
+</div></div>
+
+</div>
+</body>
+<script>
+    window.addEventListener("load", function () {
+      console.log("loaded");
+      document.querySelectorAll(".answergray").forEach(function (ele) {
+        ele.classList.add("u-display-none");
+      });
+      document.querySelectorAll(".hide-answer").forEach(function (ele) {
+        ele.classList.add("u-display-none");
+      });
+      document.querySelectorAll(".show-answer").forEach(function (ele) {
+        ele.addEventListener("click", function (e) {
+          e.currentTarget.nextElementSibling.classList.remove("u-display-none");
+          e.currentTarget
+            .closest(".question-container")
+            .querySelectorAll(".answergray")
+            .forEach(function (ele) {
+              ele.classList.remove("u-display-none");
+            });
+          ele.classList.add("u-display-none");
+        });
+      });
+      document.querySelectorAll(".hide-answer").forEach(function (ele) {
+        ele.addEventListener("click", function (e) {
+          e.currentTarget.previousElementSibling.classList.remove("u-display-none");
+          e.currentTarget
+            .closest(".question-container")
+            .querySelectorAll(".answergray")
+            .forEach(function (ele) {
+              ele.classList.add("u-display-none");
+            });
+          ele.classList.add("u-display-none");
+        });
+      });
+      var event = new Event("click", {
+        bubbles: true,
+        cancelable: true,
+      });
+      document
+        .querySelectorAll(".openTextBoxController__showButton")
+        .forEach(function (ele) {
+          ele.addEventListener("click", function (e) {
+            e.currentTarget.nextElementSibling.classList.remove("u-display-none");
+            ele.classList.add("u-display-none");
+            document.querySelectorAll(".show-answer").forEach(function (ele) {
+              ele.dispatchEvent(event);
+            });
+          });
+        });
+
+      document
+        .querySelectorAll(".openTextBoxController__hideButton")
+        .forEach(function (ele) {
+          ele.addEventListener("click", function (e) {
+            e.currentTarget.previousElementSibling.classList.remove("u-display-none");
+            ele.classList.add("u-display-none");
+            document.querySelectorAll(".hide-answer").forEach(function (ele) {
+              ele.dispatchEvent(event);
+            });
+          });
+        });
+
+      document
+        .querySelectorAll(".openTextBoxController__resetButton")
+        .forEach(function (ele) {
+          ele.addEventListener("click", function (e) {
+            document.querySelectorAll("textArea").forEach(function (ele) {
+              ele.value = "";
+            });
+          });
+        });
+    });
+  </script>
+  </html>

@@ -1,0 +1,574 @@
+<!DOCTYPE html><html><head>
+<style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 1rem;
+      }
+      ol,
+      ul {
+        margin-bottom: 0in;
+      }
+      table {
+        margin-top: 1rem;
+        border: 1px solid gray;
+        width: 7in;
+        border-collapse: collapse;
+      }
+
+      table > thead > tr > .openTableTextBox__table-header-data {
+        text-align: center;
+        margin-top: 6pt;
+        margin-right: 0in;
+        margin-bottom: 6pt;
+        margin-left: 0in;
+        text-align: center;
+        line-height: 115%;
+        page-break-after: avoid;
+        font-size: 10pt;
+        font-family: "Arial", sans-serif;
+        font-weight: bold;
+        background: #dbe5f1;
+        padding: 0.5rem;
+      }
+      .openTableTextBox__answerText
+        table
+        > thead
+        > tr
+        > .openTableTextBox__table-header-data {
+        background: #f2dbdb !important;
+      }
+      .openTextBox__textArea-container {
+        margin-top: 6pt;
+        margin-right: 0in;
+        margin-bottom: 6pt;
+        font-size: 10pt;
+        font-family: "Arial", sans-serif;
+        width: 50%;
+      }
+      .openTableTextBox__fieldset {
+        padding: 5px;
+      }
+      td {
+        margin-top: 3pt;
+        margin-right: 0in;
+        margin-bottom: 3pt;
+        margin-left: 0in;
+        font-size: 10pt;
+        font-family: "Arial", sans-serif;
+        width: 98.85pt;
+        border: solid windowtext 1pt;
+        border-top: none;
+        padding: 0.7pt 5.75pt 0.7pt 5.75pt;
+      }
+      textarea {
+        width: 100%;
+      }
+      .answergray {
+        padding: 0.2rem;
+      }
+
+      .openTableTextBox__widget {
+        margin-top: 6pt;
+        margin-right: 0in;
+        margin-bottom: 6pt;
+        margin-left: 0.25in;
+      }
+
+      .show-answer,
+      .hide-answer {
+        padding: 0.5rem 1rem;
+        background-color: #3d692b;
+        color: #fff;
+        border: 0px;
+        cursor: pointer;
+        margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
+      }
+
+      .openTextBoxController__button-container {
+        display: flex;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+      }
+
+      .openTextBoxController__button-container .btn-text {
+        margin: 10px;
+      }
+
+      .btn-text {
+        border: 0px;
+        padding: 0.5rem 1rem;
+        background-color: #3d692b;
+        color: #fff;
+        border-radius: 0;
+        cursor: pointer;
+      }
+
+      .u-display-none {
+        display: none;
+      }
+      .openTextBox__postText, openTableTextBox__postText {
+        margin-top: 0.5rem;
+      }
+      .edit-comment {
+        display: none;
+      }
+      .js-heading-inner {
+        display: none;
+      }
+      .block__title-inner,
+      .article__title-inner {
+        display: block;
+        font-size: 1.5em;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+      }
+      h2{
+        font-size: 1.25em;
+      }
+      h3{
+        font-size: 1.125em;
+      }
+      .table
+        > .table-inner
+        > .table-wrapper
+        > .table-widget
+        > table
+        > tbody
+        > tr
+        > th {
+        border: solid windowtext 1pt;
+      }
+      .openTableTextBox__answerText
+        table
+        > thead
+        > tr
+        > .openTableTextBox__table-header-data {
+        background: #f2dbdb !important;
+      }
+      .command-output > .table-inner > .table-wrapper > .table-widget > table,
+      .command-output
+        > .table-inner
+        > .table-wrapper
+        > .table-widget
+        > table
+        > tbody
+        > tr
+        > td,
+      .command-output
+        > .table-inner
+        > .table-wrapper
+        > .table-widget
+        > table
+        > tbody
+        > tr
+        > th {
+        border: none !important;
+        text-align: right !important;
+      }
+      .simple-table > .table-inner > .table-wrapper{
+        margin-left: 1.5rem;
+      }
+      .openTextBox__widget {
+        margin-left: 1.5rem;
+      }
+      img {
+        width: 30%;
+        height: auto;
+        margin-top: 1rem;
+        margin-left: 3rem;
+      }
+      .answergray {
+        background-color: #ccc;
+      }
+      .openTableTextBox__widget > .answergray {
+        background-color: #fff !important;
+      }
+      li > ul,ol > li{
+        margin-left: 0px !important;
+      }
+      img {
+        width: 30%;
+        height: auto;
+        margin-top: 1rem;
+        margin-left: 3rem;
+      }
+    </style>
+
+</head><body>
+
+<div class="article__inner">
+
+
+  <div class="block__container">
+  <div data-adapt-id="63bd132c5e64e000f15e7d33" class="block 63bd132c5e64e000f15e7d33 background-color-white remove-padding-top remove-padding-bottom">
+
+<div class="block__inner">
+
+  <div class="block__header">
+    <div class="block__header-inner">
+
+      <div class="block__title">
+
+        <div class="js-heading is-incomplete">
+
+<div id="63bd132c5e64e000f15e7d33-heading" class="js-heading-inner" role="heading" aria-level="3">
+
+  <span class="aria-label">
+      Incomplete ​​Lab - Using VLOOKUP in Data Analysis​ 
+      </span>
+
+</div>
+</div><div class="block__title-inner" aria-hidden="true">
+          ​​Lab - Using VLOOKUP in Data Analysis​ 
+        </div>
+
+      </div>
+
+
+
+    </div>
+  </div>
+
+  <div class="component__container">
+  <div data-adapt-id="63bd132c5e64e000f15e7d40" class="component text 63bd132c5e64e000f15e7d40    is-full  "><div class="component__inner text__inner">
+  
+  
+  <div class="component__header text__header" id="63bd132c5e64e000f15e7d40-header">
+    <div class="component__header-inner text__header-inner">
+  
+  
+      
+  
+      <div class="component__body text__body">
+        <div class="component__body-inner text__body-inner">
+          <h2>Objectives </h2><p>In this lab, you will use the VLOOKUP function in Microsoft Excel to:</p><p><strong>Part 1: Initial Examination of a Large Dataset</strong></p><p><strong>Part 2: Apply the VLOOKUP Function</strong> </p><h2>Background / Scenario</h2><p>Searching for a single data record from a very large dataset for analysis usually requires the application of specific search functions to facilitate locating and extracting the information required. In this lab, the Excel VLOOKUP function will be used to locate information from a large dataset.</p><h2>Required Resources </h2><ul><li><p>Mobile device or PC/laptop with a browser, MS 365 Excel online, and an Internet connection </p><p><strong>Note</strong>: The precise steps to format and combine or split data in Excel can vary between platforms and versions. The instructions in this lab are based on the free version of Excel available from Office.com and may have to be modified to match the platform or version used to achieve the results shown in this lab. </p></li></ul>
+        </div>
+      </div>
+  
+  
+    </div>
+  </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="63bd132c5e64e000f15e7d34" class="block 63bd132c5e64e000f15e7d34 background-color-white remove-padding-top remove-padding-bottom">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="63bd132c5e64e000f15e7d41" class="component text 63bd132c5e64e000f15e7d41    is-full  "><div class="component__inner text__inner">
+  
+  
+  <div class="component__header text__header" id="63bd132c5e64e000f15e7d41-header">
+    <div class="component__header-inner text__header-inner">
+  
+  
+      
+  
+      <div class="component__body text__body">
+        <div class="component__body-inner text__body-inner">
+          <h2>Instructions</h2><h3>Part 1: Initial Examination of a Large Dataset </h3><h4>Step 1: Download the data file. </h4><ol start="1" style="list-style-type:lower-alpha"><li>Download the sample workbook file <strong>Bike Sales_VLOOKUP.xlsx</strong> and save it to your OneDrive.</li><li>Open the downloaded file in MS 365 Excel online.  Adjust the column widths such that the data is visible.</li><li>Freeze the top (Heading) row so it remains visible as you scroll through the many thousands of entries.<ol><li><strong>Click View</strong> &gt; <strong>Freeze Panes</strong> and select <strong>Freeze Top Row</strong>.</li></ol></li></ol><h4>Step 2: Examine the data. </h4><p>Scroll through and examine the data in the worksheet. The worksheet contains bikes sales data for the 4th quarter of 2021 which is 752 rows of data. </p><p>As can be seen, even if the data is sorted by <strong>Sales_Order #</strong> or <strong>Date</strong>, the size of the dataset means that manually searching for information about a specific sale would be time consuming and perhaps prone to error. </p><p>To facilitate searching, this lab will use VLOOKUP to display the <strong>Sales_Order Number</strong> and <strong>Product </strong>of a particular sale.</p><p>An important requirement of VLOOKUP is that the reference data must be in the leftmost (first) column of the dataset in Excel. In this lab, <strong>Sales_Order#</strong> is being used as the search reference and must be the first column (Column A in this spreadsheet). </p>
+        </div>
+      </div>
+  
+  
+    </div>
+  </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="63bd132c5e64e000f15e7d38" class="block 63bd132c5e64e000f15e7d38 background-color-white remove-padding-top remove-padding-bottom">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="63bd132d5e64e000f15e7d49" class="component text 63bd132d5e64e000f15e7d49    is-full  "><div class="component__inner text__inner">
+  
+  
+  <div class="component__header text__header" id="63bd132d5e64e000f15e7d49-header">
+    <div class="component__header-inner text__header-inner">
+  
+  
+      
+  
+      <div class="component__body text__body">
+        <div class="component__body-inner text__body-inner">
+          <h3>Part 2: Apply the VLOOKUP Function </h3><h4>Step 1: Select result display area </h4><p>For usability and consistency, especially with large datasets, it is best practice to select a blank area of the worksheet, or a new blank worksheet, in which to enter the search criteria and display the result. </p><p>This entry and display area may be on another worksheet within the spreadsheet; or may be enabled by using macros and forms. For this lab, the entry and display area will be on the same worksheet adjacent to the data. </p><p>The values to be used are Sales_Order#, Product, and Order_Quantity. </p><ol start="1" style="list-style-type:lower-alpha"><li>In cell U3, enter <strong>Sales_Order # = </strong></li><li>In cell U4, enter <strong>Product =</strong> </li><li>In cell U5, enter <strong>Order_Quantity =</strong> </li></ol><h4>Step 2: Create the VLOOKUP functions </h4><ol start="1" style="list-style-type:lower-alpha"><li>In cell V4 enter <strong>=VLOOKUP(V3, A2:S753 ,13, FALSE) </strong></li><li>In cell V4 enter <strong>=VLOOKUP(V3, A2:S753 ,14, FALSE) </strong></li></ol><p> </p><p>Where: </p><p><strong>V3 </strong>is the cell where the reference (lookup) value, the sales order number, is entered. </p><p><strong>A2:S753</strong> is full range of data across all columns and rows that will be searched. </p><p><strong>13 </strong>is the index (column number) with respect to the reference column; <strong>Product </strong>is the 13<sup>th</sup> column to the right of the <strong>Sales_Order#</strong> column, column A.</p><p><strong>14 </strong>is the index (column number) with respect to the reference column; <strong>Order_Quantity</strong> is the 14<sup>th</sup> column to the right of the <strong>Sales_Order# </strong>column, column A. </p><p><strong>FALSE </strong>denotes an exact match for the movie title must be found. </p><h4>Step 3: Test the VLOOKUP functions </h4><ol start="1" style="list-style-type:lower-alpha"><li><p>Enter a <strong>Sales_Order#</strong> in cell V3 and observe the displayed <strong>Product </strong>and <strong>Order_Quantiy</strong> in cells <strong>V4 </strong>and <strong>V5</strong>. </p><ol><li>If you enter <strong>Sales_Order#</strong> 000261274 the returned results should be “Road-650 Red 44” for the Product and “2” for the Order_Quantity.<p>If Excel is displaying 261274 in cell V3, enter '000261274 into cell V3. The single quote (') forces the leading zeros in the sales order number to be included in the lookup.</p></li></ol></li></ol>
+        </div>
+      </div>
+  
+  
+    </div>
+  </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="63bd132c5e64e000f15e7d35" class="block 63bd132c5e64e000f15e7d35 background-color-white remove-padding-top remove-padding-bottom">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="63bd132c5e64e000f15e7d42" class="component graphic 63bd132c5e64e000f15e7d42 is-left zoom-img-enabled"><div class="component__inner graphic__inner">
+
+  
+  
+
+  <div class="component__widget graphic__widget">
+
+    <div class="graphic__image-container">
+
+      <img loading="eager" class="graphic__image js-graphic-set-image-src" src="data:image/png;base64,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" data-large="course/en-US/assets/f2dad9d9e55e8af0d675bf60cf9c0bdd5bd09f2f.png" data-small="course/en-US/assets/f2dad9d9e55e8af0d675bf60cf9c0bdd5bd09f2f.png" aria-label="de1-5.5.5-1">
+
+
+    </div>
+
+  </div>
+
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="63bd132c5e64e000f15e7d39" class="block 63bd132c5e64e000f15e7d39 background-color-white remove-padding-top remove-padding-bottom">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="63bd132d5e64e000f15e7d4a" class="component text 63bd132d5e64e000f15e7d4a    is-full  "><div class="component__inner text__inner">
+  
+  
+  <div class="component__header text__header" id="63bd132d5e64e000f15e7d4a-header">
+    <div class="component__header-inner text__header-inner">
+  
+  
+      
+  
+      <div class="component__body text__body">
+        <div class="component__body-inner text__body-inner">
+          <h4>Step 4: </h4><ol start="1" style="list-style-type:lower-alpha"><li>Test the VLOOKUP functions with other sales order numbers.</li></ol><h4>Step 5: Improve the VLOOKUP function </h4><p>If a sales order number is entered that is not found in the dataset, then #N/A is displayed. </p><ol start="1" style="list-style-type:lower-alpha"><li><p>In cell <strong>V3 </strong>enter an invalid sales order number such as 12345 </p></li></ol><p>The result in cells <strong>V4 </strong>and <strong>V5 </strong>is #N/A. </p><p>This result is not very helpful to the user. A solution is to modify each VLOOKUP function. </p><ol start="2" style="list-style-type:lower-alpha"><li>Change cell <strong>M4 </strong>to     <strong> = IFNA(VLOOKUP(V3, A2:S753 ,13, FALSE), "Not Found")</strong> </li><li>Change cell <strong>M5 </strong>to     <strong> = IFNA(VLOOKUP(V3, A2:S753 ,14, FALSE), "Not Found") </strong></li></ol><p>The VLOOKUP function is enclosed within a IFNA function, which if TRUE displays the given text.</p><p>An invalid sales order number should now return “Not Found”. </p>
+        </div>
+      </div>
+  
+  
+    </div>
+  </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="63bd132c5e64e000f15e7d3a" class="block 63bd132c5e64e000f15e7d3a background-color-white remove-padding-top remove-padding-bottom">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="63bd132d5e64e000f15e7d4b" class="component graphic 63bd132d5e64e000f15e7d4b is-left zoom-img-enabled"><div class="component__inner graphic__inner">
+
+  
+  
+
+  <div class="component__widget graphic__widget">
+
+    <div class="graphic__image-container">
+
+      <img loading="eager" class="graphic__image js-graphic-set-image-src" src="data:image/png;base64,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" data-large="course/en-US/assets/d3487eff5c505f9907a3dd45d3c51554bf6768ca.png" data-small="course/en-US/assets/d3487eff5c505f9907a3dd45d3c51554bf6768ca.png" aria-label="de1-5.5.5-2">
+
+
+    </div>
+
+  </div>
+
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="63bd132c5e64e000f15e7d3b" class="block 63bd132c5e64e000f15e7d3b background-color-white remove-padding-top remove-padding-bottom">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="63bd132d5e64e000f15e7d52" class="component opentextbox 63bd132d5e64e000f15e7d52    is-full  "><div class="component__inner openTextBox__inner">
+    
+    
+    <div class="component__header opentextbox__header" id="63bd132d5e64e000f15e7d52-header">
+      <div class="component__header-inner opentextbox__header-inner">
+    
+    
+        
+    
+        <div class="component__body opentextbox__body">
+          <div class="component__body-inner opentextbox__body-inner">
+            <ol start="4" style="list-style-type:lower-alpha"><li>Try other valid and invalid order numbers to test the VLOOKUP function. </li></ol><h2>Reflection Questions</h2><p>Consider searching the dataset for other information relating to a particular movie.</p>
+          </div>
+        </div>
+    
+    
+      </div>
+    </div>
+    <div class="component__widget openTextBox__widget question-container">
+            <div class="openTextBox__preText">1.  Write a VLOOKUP function to retrieve the <b>Cost</b> of a particular order. </div>
+        <div class="openTextBox__textArea-container">
+            <fieldset class="openTextBox__fieldset">
+                <legend class="openTextBox__legend">Answer Area</legend>
+                <textarea class="openTextBox__textArea" rows="3" name="answerArea" placeholder="Type your answers here. "></textarea>
+            </fieldset>
+        </div>
+        <div class="openTextBox__answerText answergray u-display-none">= IFNA(VLOOKUP(V3, A2:S753 ,18, FALSE), "Not Found")</div>
+        <div class="btn__container">
+            <button class="btn-text openTextBox__showButton show-answer">Show Answer</button>
+            <button class="btn-text openTextBox__hideButton hide-answer u-display-none">Hide Answer</button>
+        </div>
+    </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="63bd132c5e64e000f15e7d3c" class="block 63bd132c5e64e000f15e7d3c background-color-white remove-padding-top remove-padding-bottom">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="63bd132d5e64e000f15e7d53" class="component opentextbox 63bd132d5e64e000f15e7d53    is-full  "><div class="component__inner openTextBox__inner">
+    
+    
+    <div class="component__widget openTextBox__widget question-container">
+            <div class="openTextBox__preText">2.  Write a VLOOKUP function to retrieve the Revenue of a particular order.</div>
+        <div class="openTextBox__textArea-container">
+            <fieldset class="openTextBox__fieldset">
+                <legend class="openTextBox__legend">Answer Area</legend>
+                <textarea class="openTextBox__textArea" rows="3" name="answerArea" placeholder="Type your answers here. "></textarea>
+            </fieldset>
+        </div>
+        <div class="openTextBox__answerText answergray u-display-none">= IFNA(VLOOKUP(V3, A2:S753 ,19, FALSE), "Not Found")</div>
+        <div class="btn__container">
+            <button class="btn-text openTextBox__showButton show-answer">Show Answer</button>
+            <button class="btn-text openTextBox__hideButton hide-answer u-display-none">Hide Answer</button>
+        </div>
+    </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="63bd132c5e64e000f15e7d3f" class="block 63bd132c5e64e000f15e7d3f background-color-white remove-padding-top remove-padding-bottom">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="63bd132d5e64e000f15e7d56" class="component text 63bd132d5e64e000f15e7d56    is-full  "><div class="component__inner text__inner">
+  
+  
+  <div class="component__header text__header" id="63bd132d5e64e000f15e7d56-header">
+    <div class="component__header-inner text__header-inner">
+  
+  
+      
+  
+      <div class="component__body text__body">
+        <div class="component__body-inner text__body-inner">
+          <h2>Challenge Activity</h2><p>Explore the possibilities of using VLOOKUP on other datasets and how useful this would be in analyzing the data. Consider what would be the reference data and the structure of the VLOOKUP function to achieve the required analysis.</p>
+        </div>
+      </div>
+  
+  
+    </div>
+  </div>
+</div>
+</div></div><div class="openTextBoxController-inner"><div class="openTextBoxController__button-container">
+  <button class="btn-text showhidebtn openTextBoxController__showButton">Show All Answers</button>
+  <button class="btn-text showhidebtn openTextBoxController__hideButton u-display-none">Hide All Answers</button>
+  <button class="btn-text resetbtn openTextBoxController__resetButton">Clear My Responses</button>
+</div>
+  <div class="post-text"><hr>© 2017 - 2023 Cisco and/or its affiliates. All rights reserved. Cisco Public</div>
+</div>
+
+</div>
+</div></div>
+
+</div>
+</body>
+<script>
+    window.addEventListener("load", function () {
+      console.log("loaded");
+      document.querySelectorAll(".answergray").forEach(function (ele) {
+        ele.classList.add("u-display-none");
+      });
+      document.querySelectorAll(".hide-answer").forEach(function (ele) {
+        ele.classList.add("u-display-none");
+      });
+      document.querySelectorAll(".show-answer").forEach(function (ele) {
+        ele.addEventListener("click", function (e) {
+          e.currentTarget.nextElementSibling.classList.remove("u-display-none");
+          e.currentTarget
+            .closest(".question-container")
+            .querySelectorAll(".answergray")
+            .forEach(function (ele) {
+              ele.classList.remove("u-display-none");
+            });
+          ele.classList.add("u-display-none");
+        });
+      });
+      document.querySelectorAll(".hide-answer").forEach(function (ele) {
+        ele.addEventListener("click", function (e) {
+          e.currentTarget.previousElementSibling.classList.remove("u-display-none");
+          e.currentTarget
+            .closest(".question-container")
+            .querySelectorAll(".answergray")
+            .forEach(function (ele) {
+              ele.classList.add("u-display-none");
+            });
+          ele.classList.add("u-display-none");
+        });
+      });
+      var event = new Event("click", {
+        bubbles: true,
+        cancelable: true,
+      });
+      document
+        .querySelectorAll(".openTextBoxController__showButton")
+        .forEach(function (ele) {
+          ele.addEventListener("click", function (e) {
+            e.currentTarget.nextElementSibling.classList.remove("u-display-none");
+            ele.classList.add("u-display-none");
+            document.querySelectorAll(".show-answer").forEach(function (ele) {
+              ele.dispatchEvent(event);
+            });
+          });
+        });
+
+      document
+        .querySelectorAll(".openTextBoxController__hideButton")
+        .forEach(function (ele) {
+          ele.addEventListener("click", function (e) {
+            e.currentTarget.previousElementSibling.classList.remove("u-display-none");
+            ele.classList.add("u-display-none");
+            document.querySelectorAll(".hide-answer").forEach(function (ele) {
+              ele.dispatchEvent(event);
+            });
+          });
+        });
+
+      document
+        .querySelectorAll(".openTextBoxController__resetButton")
+        .forEach(function (ele) {
+          ele.addEventListener("click", function (e) {
+            document.querySelectorAll("textArea").forEach(function (ele) {
+              ele.value = "";
+            });
+          });
+        });
+    });
+  </script>
+  </html>

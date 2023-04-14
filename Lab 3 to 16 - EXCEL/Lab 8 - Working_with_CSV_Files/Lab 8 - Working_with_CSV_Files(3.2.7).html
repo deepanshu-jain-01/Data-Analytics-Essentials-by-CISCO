@@ -1,0 +1,809 @@
+<!DOCTYPE html><html><head>
+<style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 1rem;
+      }
+      ol,
+      ul {
+        margin-bottom: 0in;
+      }
+      table {
+        margin-top: 1rem;
+        border: 1px solid gray;
+        width: 7in;
+        border-collapse: collapse;
+      }
+
+      table > thead > tr > .openTableTextBox__table-header-data {
+        text-align: center;
+        margin-top: 6pt;
+        margin-right: 0in;
+        margin-bottom: 6pt;
+        margin-left: 0in;
+        text-align: center;
+        line-height: 115%;
+        page-break-after: avoid;
+        font-size: 10pt;
+        font-family: "Arial", sans-serif;
+        font-weight: bold;
+        background: #dbe5f1;
+        padding: 0.5rem;
+      }
+      .openTableTextBox__answerText
+        table
+        > thead
+        > tr
+        > .openTableTextBox__table-header-data {
+        background: #f2dbdb !important;
+      }
+      .openTextBox__textArea-container {
+        margin-top: 6pt;
+        margin-right: 0in;
+        margin-bottom: 6pt;
+        font-size: 10pt;
+        font-family: "Arial", sans-serif;
+        width: 50%;
+      }
+      .openTableTextBox__fieldset {
+        padding: 5px;
+      }
+      td {
+        margin-top: 3pt;
+        margin-right: 0in;
+        margin-bottom: 3pt;
+        margin-left: 0in;
+        font-size: 10pt;
+        font-family: "Arial", sans-serif;
+        width: 98.85pt;
+        border: solid windowtext 1pt;
+        border-top: none;
+        padding: 0.7pt 5.75pt 0.7pt 5.75pt;
+      }
+      textarea {
+        width: 100%;
+      }
+      .answergray {
+        padding: 0.2rem;
+      }
+
+      .openTableTextBox__widget {
+        margin-top: 6pt;
+        margin-right: 0in;
+        margin-bottom: 6pt;
+        margin-left: 0.25in;
+      }
+
+      .show-answer,
+      .hide-answer {
+        padding: 0.5rem 1rem;
+        background-color: #3d692b;
+        color: #fff;
+        border: 0px;
+        cursor: pointer;
+        margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
+      }
+
+      .openTextBoxController__button-container {
+        display: flex;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+      }
+
+      .openTextBoxController__button-container .btn-text {
+        margin: 10px;
+      }
+
+      .btn-text {
+        border: 0px;
+        padding: 0.5rem 1rem;
+        background-color: #3d692b;
+        color: #fff;
+        border-radius: 0;
+        cursor: pointer;
+      }
+
+      .u-display-none {
+        display: none;
+      }
+      .openTextBox__postText, openTableTextBox__postText {
+        margin-top: 0.5rem;
+      }
+      .edit-comment {
+        display: none;
+      }
+      .js-heading-inner {
+        display: none;
+      }
+      .block__title-inner,
+      .article__title-inner {
+        display: block;
+        font-size: 1.5em;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+      }
+      h2{
+        font-size: 1.25em;
+      }
+      h3{
+        font-size: 1.125em;
+      }
+      .table
+        > .table-inner
+        > .table-wrapper
+        > .table-widget
+        > table
+        > tbody
+        > tr
+        > th {
+        border: solid windowtext 1pt;
+      }
+      .openTableTextBox__answerText
+        table
+        > thead
+        > tr
+        > .openTableTextBox__table-header-data {
+        background: #f2dbdb !important;
+      }
+      .command-output > .table-inner > .table-wrapper > .table-widget > table,
+      .command-output
+        > .table-inner
+        > .table-wrapper
+        > .table-widget
+        > table
+        > tbody
+        > tr
+        > td,
+      .command-output
+        > .table-inner
+        > .table-wrapper
+        > .table-widget
+        > table
+        > tbody
+        > tr
+        > th {
+        border: none !important;
+        text-align: right !important;
+      }
+      .simple-table > .table-inner > .table-wrapper{
+        margin-left: 1.5rem;
+      }
+      .openTextBox__widget {
+        margin-left: 1.5rem;
+      }
+      img {
+        width: 30%;
+        height: auto;
+        margin-top: 1rem;
+        margin-left: 3rem;
+      }
+      .answergray {
+        background-color: #ccc;
+      }
+      .openTableTextBox__widget > .answergray {
+        background-color: #fff !important;
+      }
+      li > ul,ol > li{
+        margin-left: 0px !important;
+      }
+      img {
+        width: 30%;
+        height: auto;
+        margin-top: 1rem;
+        margin-left: 3rem;
+      }
+    </style>
+
+</head><body>
+
+<div class="article__inner">
+
+
+  <div class="block__container">
+  <div data-adapt-id="63916a449b6e7c082bf7f8b0" class="block 63916a449b6e7c082bf7f8b0 background-color-white remove-bottom-padding remove-top-padding">
+
+<div class="block__inner">
+
+  <div class="block__header">
+    <div class="block__header-inner">
+
+      <div class="block__title">
+
+        <div class="js-heading is-incomplete">
+
+<div id="63916a449b6e7c082bf7f8b0-heading" class="js-heading-inner" role="heading" aria-level="3">
+
+  <span class="aria-label">
+      Incomplete ​​Lab - Working with CSV Files​
+      </span>
+
+</div>
+</div><div class="block__title-inner" aria-hidden="true">
+          ​​Lab - Working with CSV Files​
+        </div>
+
+      </div>
+
+
+
+    </div>
+  </div>
+
+  <div class="component__container">
+  <div data-adapt-id="63916a449b6e7c082bf7f8b5" class="component text 63916a449b6e7c082bf7f8b5    is-full  "><div class="component__inner text__inner">
+  
+  
+  <div class="component__header text__header" id="63916a449b6e7c082bf7f8b5-header">
+    <div class="component__header-inner text__header-inner">
+  
+  
+      
+  
+      <div class="component__body text__body">
+        <div class="component__body-inner text__body-inner">
+          <h2>Objectives</h2><p><strong>Part 1: Opening a CSV File</strong></p><p><strong>Part 2: Creating a CSV File</strong></p><p><strong>Part 3: Fixing Common Errors in Importing CSV Files</strong></p>
+        </div>
+      </div>
+  
+  
+    </div>
+  </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="63916d329b6e7c082bf7f8bc" class="block 63916d329b6e7c082bf7f8bc background-color-white remove-bottom-padding remove-top-padding">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="63916d329b6e7c082bf7f8bd" class="component text 63916d329b6e7c082bf7f8bd    is-full  "><div class="component__inner text__inner">
+  
+  
+  <div class="component__header text__header" id="63916d329b6e7c082bf7f8bd-header">
+    <div class="component__header-inner text__header-inner">
+  
+  
+      
+  
+      <div class="component__body text__body">
+        <div class="component__body-inner text__body-inner">
+          <h2>Background / Scenario</h2><p>CSVs are not the same as traditional spreadsheets because they do not have the saved cell, column, or row values, nor do they contain formulas. CSV files can contain numbers and letters only, even though in Microsoft Excel or Google Sheets the CSV file may look like a traditional spreadsheet.</p><p>CSV files are plain text files, which makes them easier for a developer to create, and easier for you to import into a spreadsheet or storage database regardless of software.</p><p>CSV files are easy to organize and manipulate and are primarily used for importing and exporting information to and from the source database. They are also easy to convert into traditional file formats like .xls/.xlsx, .txt, or .html.</p><p>Usually, the first row in a CSV file contains the table column labels. Each of the subsequent lines represents a row of the table. Commas separate each cell in the row, which is where the name “Comma Separated Values” comes from.</p><h2>Required Resources</h2><p>Mobile device or PC/laptop with a browser, Microsoft Excel, and internet access.</p><p><strong>Note</strong>: The precise steps to format and manipulate data in Excel can vary between platforms and versions. The instructions in this lab are based on the free version of Excel available from Office.com and may have to be modified to match the user’s platform, software, or version to achieve the results shown in this lab.</p><ol style="list-style-type:lower-alpha"></ol>
+        </div>
+      </div>
+  
+  
+    </div>
+  </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="6391e29c5888e8046d1fd091" class="block 6391e29c5888e8046d1fd091 background-color-white remove-bottom-padding remove-top-padding">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="6391e29d5888e8046d1fd092" class="component text 6391e29d5888e8046d1fd092    is-full  "><div class="component__inner text__inner">
+  
+  
+  <div class="component__header text__header" id="6391e29d5888e8046d1fd092-header">
+    <div class="component__header-inner text__header-inner">
+  
+  
+      
+  
+      <div class="component__body text__body">
+        <div class="component__body-inner text__body-inner">
+          <h2>Instructions</h2><h3>Part 1: Opening a CSV File</h3><p><strong>Step 1: Open the Bike Sales_Lab.csv file in a text editor.</strong></p><ol style="list-style-type:lower-alpha"><li>Open the downloaded <strong>Bike Sales_Lab.csv</strong> in Notepad or another text editor.<br>Right click the file and select <strong>Open With</strong> &gt; <strong>Notepad</strong>.<br>Alternatively, launch Notepad and select <strong>File</strong> &gt; <strong>Open</strong> then navigate to the directory containing the Bike Sales_Lab.csv file. Change Notepad to look for <strong>All Files</strong>, then select the Bike Sales_Lab.csv file and click <strong>Open</strong>.</li><li>Review the data in the text editor to answer the following questions:</li></ol><ol style="list-style-type:lower-alpha"></ol>
+        </div>
+      </div>
+  
+  
+    </div>
+  </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="6391700d4ad38407c2692982" class="block 6391700d4ad38407c2692982 background-color-white remove-bottom-padding remove-top-padding">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="6391707d2b79a80805615f51" class="component opentextbox 6391707d2b79a80805615f51    is-full  "><div class="component__inner openTextBox__inner">
+    
+    
+    <div class="component__widget openTextBox__widget question-container">
+            <div class="openTextBox__preText">How many columns are in the file? What are the column headings?</div>
+        <div class="openTextBox__textArea-container">
+            <fieldset class="openTextBox__fieldset">
+                <legend class="openTextBox__legend">Answer Area</legend>
+                <textarea class="openTextBox__textArea" rows="3" name="answerArea" placeholder="Type your answers here."></textarea>
+            </fieldset>
+        </div>
+        <div class="openTextBox__answerText answergray u-display-none">The file has six columns, labeled “Date”, “Age_Group”, "Product_Category”,  “Order_Quantity”, “Unit_Price”, and “Revenue”.</div>
+        <div class="btn__container">
+            <button class="btn-text openTextBox__showButton show-answer">Show Answer</button>
+            <button class="btn-text openTextBox__hideButton hide-answer u-display-none">Hide Answer</button>
+        </div>
+    </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="6391710d4ad38407c2692985" class="block 6391710d4ad38407c2692985 background-color-white remove-bottom-padding remove-top-padding">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="6391710d4ad38407c2692986" class="component opentextbox 6391710d4ad38407c2692986    is-full  "><div class="component__inner openTextBox__inner">
+    
+    
+    <div class="component__widget openTextBox__widget question-container">
+            <div class="openTextBox__preText">What is the delimiter used to separate the columns?</div>
+        <div class="openTextBox__textArea-container">
+            <fieldset class="openTextBox__fieldset">
+                <legend class="openTextBox__legend">Answer Area</legend>
+                <textarea class="openTextBox__textArea" rows="3" name="answerArea" placeholder="Type your answers here."></textarea>
+            </fieldset>
+        </div>
+        <div class="openTextBox__answerText answergray u-display-none">The fields in each record are separated by commas.</div>
+        <div class="btn__container">
+            <button class="btn-text openTextBox__showButton show-answer">Show Answer</button>
+            <button class="btn-text openTextBox__hideButton hide-answer u-display-none">Hide Answer</button>
+        </div>
+    </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="639176591fcf97079c779d64" class="block 639176591fcf97079c779d64 background-color-white remove-bottom-padding remove-top-padding">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="639178bc4ad38407c2692988" class="component opentextbox 639178bc4ad38407c2692988    is-full  "><div class="component__inner openTextBox__inner">
+    
+    
+    <div class="component__header opentextbox__header" id="639178bc4ad38407c2692988-header">
+      <div class="component__header-inner opentextbox__header-inner">
+    
+    
+        
+    
+        <div class="component__body opentextbox__body">
+          <div class="component__body-inner opentextbox__body-inner">
+            <ol start="3" style="list-style-type:lower-alpha"><li>Close the text editor when done.</li></ol><p><strong>Step 2: Open the Bike Sales_Lab.csv file in Excel.</strong></p><p>Open the <strong>Bike Sales_Lab.csv</strong> in Excel</p>
+          </div>
+        </div>
+    
+    
+      </div>
+    </div>
+    <div class="component__widget openTextBox__widget question-container">
+            <div class="openTextBox__preText">How many columns are displayed in Excel? Are these the same columns that you noted in the previous step when opening the file in a text editor?</div>
+        <div class="openTextBox__textArea-container">
+            <fieldset class="openTextBox__fieldset">
+                <legend class="openTextBox__legend">Answer Area</legend>
+                <textarea class="openTextBox__textArea" rows="3" name="answerArea" placeholder="Type your answers here."></textarea>
+            </fieldset>
+        </div>
+        <div class="openTextBox__answerText answergray u-display-none">The file has six columns, labeled “Date”, “Age_Group”, "Product_Category”,  “Order_Quantity”, “Unit_Price”, and “Revenue”. They are the same as in the text editor.</div>
+        <div class="btn__container">
+            <button class="btn-text openTextBox__showButton show-answer">Show Answer</button>
+            <button class="btn-text openTextBox__hideButton hide-answer u-display-none">Hide Answer</button>
+        </div>
+    </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="639c6ffda647370389b5ddf7" class="block 639c6ffda647370389b5ddf7 background-color-white remove-bottom-padding remove-top-padding">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="639c6ffda647370389b5ddf8" class="component text 639c6ffda647370389b5ddf8    is-full  "><div class="component__inner text__inner">
+  
+  
+  <div class="component__header text__header" id="639c6ffda647370389b5ddf8-header">
+    <div class="component__header-inner text__header-inner">
+  
+  
+      
+  
+      <div class="component__body text__body">
+        <div class="component__body-inner text__body-inner">
+          <h3>Part 2: Creating a CSV File</h3><p>Many applications or websites require data uploaded as a CSV. The free version of Excel from Office.com does not support saving as a .csv file; however, the full version of Excel and the free OpenOffice spreadsheets software, called Calc, both do.</p><p><em>Please Note</em>: The steps that follow are true for either the full version of Excel or OpenOffice Calc.</p><p><strong>Step 1: Launch a paid version of Excel or the free OpenOffice Calc.</strong></p><p><strong>Step 2: Enter data into a blank worksheet.</strong></p><p>Enter the following data into a worksheet as shown. </p>
+        </div>
+      </div>
+  
+  
+    </div>
+  </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="639179099b6e7c082bf7f8bf" class="block 639179099b6e7c082bf7f8bf background-color-white remove-bottom-padding remove-top-padding">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="639179fe2b79a80805615f52" class="component graphic 639179fe2b79a80805615f52    is-left  "><div class="component__inner graphic__inner">
+
+  
+  
+
+  <div class="component__widget graphic__widget">
+
+    <div class="graphic__image-container">
+
+      <img loading="eager" class="graphic__image js-graphic-set-image-src" src="data:image/png;base64,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" data-large="course/en-US/assets/b6020e867f4bcb1ab6d43fb1d83dcbd63c265588.png" data-small="course/en-US/assets/b6020e867f4bcb1ab6d43fb1d83dcbd63c265588.png" aria-label="3.2.7 Lab Image 1">
+
+
+    </div>
+
+  </div>
+
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="639c709f607bc503e1a2165b" class="block 639c709f607bc503e1a2165b background-color-white remove-bottom-padding remove-top-padding">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="639c70a0607bc503e1a2165c" class="component text 639c70a0607bc503e1a2165c    is-full  "><div class="component__inner text__inner">
+  
+  
+  <div class="component__header text__header" id="639c70a0607bc503e1a2165c-header">
+    <div class="component__header-inner text__header-inner">
+  
+  
+      
+  
+      <div class="component__body text__body">
+        <div class="component__body-inner text__body-inner">
+          <p><strong>Step 3: Save the worksheet as a CSV file.</strong></p><ol start="1" style="list-style-type:lower-alpha"><li>To save your worksheet as a CSV file, select <strong>File &gt; Save</strong> As. Choose a destination directory, name the file “<strong>MyCSV</strong>”, and save it as a <strong>CSV (Comma delimited)(*.csv)</strong> if you’re using Excel, or as <strong>Text CSV (.csv)(*.csv)</strong> if using OpenOffice.<br><strong>(1)</strong> If using OpenOffice, you will be prompted with a pop-up window about file formatting; click the <strong>Keep Current Format</strong> button. Next, in the <strong>Export Text File</strong> window, keep the defaults and click <strong>OK</strong>.</li><li>After saving the file, navigate to the destination directory, and open it in Notepad or another text editor. The file should look similar to the figure below. The file is ready to upload to the desired application.</li></ol>
+        </div>
+      </div>
+  
+  
+    </div>
+  </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="63917bc04ad38407c269298b" class="block 63917bc04ad38407c269298b background-color-white remove-bottom-padding remove-top-padding">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="63917bc04ad38407c269298c" class="component graphic 63917bc04ad38407c269298c    is-left  "><div class="component__inner graphic__inner">
+
+  
+  
+
+  <div class="component__widget graphic__widget">
+
+    <div class="graphic__image-container">
+
+      <img loading="eager" class="graphic__image js-graphic-set-image-src" src="data:image/png;base64,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" data-large="course/en-US/assets/452cf1533efc93b4fd6769b4b2656d1d0fd5e49d.png" data-small="course/en-US/assets/452cf1533efc93b4fd6769b4b2656d1d0fd5e49d.png" aria-label="3.2.7 Lab Image 2">
+
+
+    </div>
+
+  </div>
+
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="6391e9bdbad86e059e4c7a48" class="block 6391e9bdbad86e059e4c7a48 background-color-white remove-bottom-padding remove-top-padding">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="6391e9d3a4a99f059338fe56" class="component text 6391e9d3a4a99f059338fe56    is-full  "><div class="component__inner text__inner">
+  
+  
+  <div class="component__header text__header" id="6391e9d3a4a99f059338fe56-header">
+    <div class="component__header-inner text__header-inner">
+  
+  
+      
+  
+      <div class="component__body text__body">
+        <div class="component__body-inner text__body-inner">
+          <h3>Part 3: Fixing Common Errors in Importing CSV Files</h3><p>If you work with importing CSV files, you will eventually run into input errors. Data can be messy, and imports do not always work flawlessly.</p><p>When importing CSV files, there are a few common issues that often occur, and are detailed below.</p><p><strong>Incorrect File Type Error</strong></p><p>If you attempt to import a CSV file without the .csv extension, you will get an error like the one below. This could happen if you created your file in a text editor and forgot to save it as a ".CSV" file type (instead, it may be a ".TXT" file). Or, perhaps you used Excel and forgot to save as CSV, but just left it as the default ".xlsx".</p><p style="text-align: center;"><em>You attempted to upload file type that is not allowed. Please upload files in .csv format only.</em></p>
+        </div>
+      </div>
+  
+  
+    </div>
+  </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="6391ea866de9a20549e4dc2a" class="block 6391ea866de9a20549e4dc2a background-color-white remove-bottom-padding remove-top-padding">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="6391ea886de9a20549e4dc2b" class="component opentextbox 6391ea886de9a20549e4dc2b    is-full  "><div class="component__inner openTextBox__inner">
+    
+    
+    <div class="component__widget openTextBox__widget question-container">
+            <div class="openTextBox__preText">If you received the above error, how would you change the extension to fix the error, assuming the data contents are correct?</div>
+        <div class="openTextBox__textArea-container">
+            <fieldset class="openTextBox__fieldset">
+                <legend class="openTextBox__legend">Answer Area</legend>
+                <textarea class="openTextBox__textArea" rows="3" name="answerArea" placeholder="Type your answers here."></textarea>
+            </fieldset>
+        </div>
+        <div class="openTextBox__answerText answergray u-display-none">To fix this error, you just need to resave the file with a .csv extension or change the filetype to .csv.</div>
+        <div class="btn__container">
+            <button class="btn-text openTextBox__showButton show-answer">Show Answer</button>
+            <button class="btn-text openTextBox__hideButton hide-answer u-display-none">Hide Answer</button>
+        </div>
+    </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="6391eb00bad86e059e4c7a4f" class="block 6391eb00bad86e059e4c7a4f background-color-white remove-bottom-padding remove-top-padding">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="6391eb00bad86e059e4c7a50" class="component opentextbox 6391eb00bad86e059e4c7a50    is-full  "><div class="component__inner openTextBox__inner">
+    
+    
+    <div class="component__header opentextbox__header" id="6391eb00bad86e059e4c7a50-header">
+      <div class="component__header-inner opentextbox__header-inner">
+    
+    
+        
+    
+        <div class="component__body opentextbox__body">
+          <div class="component__body-inner opentextbox__body-inner">
+            <p><strong>Missing Header Row Error</strong></p><p> </p><p>This is also a very common error if the expected header titles are not in row 1. The message received will be <strong>invalid header</strong>, <strong>no header found</strong>, or something like this:</p><p><em>This file contains the following formatting errors:</em></p><ul><li>The specified CSV file is invalid. The first 6 columns must be ID, Title, Year Released, Genre, Director, and Gross.</li></ul><p>Please fix the errors and try to upload again.</p><p>To fix this error, you need to open the .csv file and add the expected headers into row 1.</p>
+          </div>
+        </div>
+    
+    
+      </div>
+    </div>
+    <div class="component__widget openTextBox__widget question-container">
+            <div class="openTextBox__preText">How would you add the missing header row in Excel?</div>
+        <div class="openTextBox__textArea-container">
+            <fieldset class="openTextBox__fieldset">
+                <legend class="openTextBox__legend">Answer Area</legend>
+                <textarea class="openTextBox__textArea" rows="3" name="answerArea" placeholder="Type your answers here."></textarea>
+            </fieldset>
+        </div>
+        <div class="openTextBox__answerText answergray u-display-none">The steps can vary. For example, open the CSV file in Excel &gt; insert a blank row above row 1 &gt; enter the column headers in the new row 1. Save the file and export it as a CSV file.</div>
+        <div class="btn__container">
+            <button class="btn-text openTextBox__showButton show-answer">Show Answer</button>
+            <button class="btn-text openTextBox__hideButton hide-answer u-display-none">Hide Answer</button>
+        </div>
+    </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="6391ebbbbad86e059e4c7a52" class="block 6391ebbbbad86e059e4c7a52 background-color-white remove-bottom-padding remove-top-padding">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="6391ebbbbad86e059e4c7a53" class="component opentextbox 6391ebbbbad86e059e4c7a53    is-full  "><div class="component__inner openTextBox__inner">
+    
+    
+    <div class="component__widget openTextBox__widget question-container">
+            <div class="openTextBox__preText">How would you add the missing header row in a text editor?</div>
+        <div class="openTextBox__textArea-container">
+            <fieldset class="openTextBox__fieldset">
+                <legend class="openTextBox__legend">Answer Area</legend>
+                <textarea class="openTextBox__textArea" rows="3" name="answerArea" placeholder="Type your answers here."></textarea>
+            </fieldset>
+        </div>
+        <div class="openTextBox__answerText answergray u-display-none">In a text editor, insert a new line above the data, enter the column header with the appropriate delimiter between the headers, and save as a CSV file.</div>
+        <div class="btn__container">
+            <button class="btn-text openTextBox__showButton show-answer">Show Answer</button>
+            <button class="btn-text openTextBox__hideButton hide-answer u-display-none">Hide Answer</button>
+        </div>
+    </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="6391ebfbabf5b70605541f03" class="block 6391ebfbabf5b70605541f03 background-color-white remove-bottom-padding remove-top-padding">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="6391ebfbabf5b70605541f04" class="component opentextbox 6391ebfbabf5b70605541f04    is-full  "><div class="component__inner openTextBox__inner">
+    
+    
+    <div class="component__header opentextbox__header" id="6391ebfbabf5b70605541f04-header">
+      <div class="component__header-inner opentextbox__header-inner">
+    
+    
+        
+    
+        <div class="component__body opentextbox__body">
+          <div class="component__body-inner opentextbox__body-inner">
+            <p><strong>Missing Information in Columns and/or Rows</strong></p><p>Another common error involves missing data in the columns or rows of the data set. Typically, if you receive an error to the effect of "empty column found" (or similar) it is because you have a column header with no data in that column or data missing from cells in a column. In other words, your first line has more data, and more delimiters, than one or more of the subsequent lines. Below is an example of an error message:</p><p><em>This file contains the following formatting errors:</em></p><ul><li>Line 2: No Title</li></ul><p><em>Please fix the errors and try to upload again.</em></p><p>This error can be fixed after adding the missing data, where appropriate, in the empty cells in Excel.</p>
+          </div>
+        </div>
+    
+    
+      </div>
+    </div>
+    <div class="component__widget openTextBox__widget question-container">
+            <div class="openTextBox__preText">How would you locate the empty cells in Excel? Perform an internet search for <strong>how to find blank cells in Excel</strong> if necessary.</div>
+        <div class="openTextBox__textArea-container">
+            <fieldset class="openTextBox__fieldset">
+                <legend class="openTextBox__legend">Answer Area</legend>
+                <textarea class="openTextBox__textArea" rows="3" name="answerArea" placeholder="Type your answers here."></textarea>
+            </fieldset>
+        </div>
+        <div class="openTextBox__answerText answergray u-display-none">There are multiple ways to do this. One possible answer: open the CSV file in Excel. Click Home &gt; Find &amp; Select &gt; Go To Special. Select Blanks and click OK to highlight all the found blank cells. Enter the missing data, where appropriate, and save the file again as a CSV file.</div>
+        <div class="btn__container">
+            <button class="btn-text openTextBox__showButton show-answer">Show Answer</button>
+            <button class="btn-text openTextBox__hideButton hide-answer u-display-none">Hide Answer</button>
+        </div>
+    </div>
+</div>
+</div></div>
+
+</div>
+</div><div data-adapt-id="6391ecc6bad86e059e4c7a55" class="block 6391ecc6bad86e059e4c7a55 background-color-white remove-bottom-padding remove-top-padding">
+
+<div class="block__inner">
+
+
+  <div class="component__container">
+  <div data-adapt-id="6391ecc6bad86e059e4c7a56" class="component opentextbox 6391ecc6bad86e059e4c7a56    is-full  "><div class="component__inner openTextBox__inner">
+    
+    
+    <div class="component__header opentextbox__header" id="6391ecc6bad86e059e4c7a56-header">
+      <div class="component__header-inner opentextbox__header-inner">
+    
+    
+        
+    
+        <div class="component__body opentextbox__body">
+          <div class="component__body-inner opentextbox__body-inner">
+            <h2>Challenge Activity</h2><p>So far, most of the data sets in the activities have been relatively small. How would you locate all the blank entries in a large worksheet where you cannot easily see if you have identified all the blank cells?</p>
+          </div>
+        </div>
+    
+    
+      </div>
+    </div>
+    <div class="component__widget openTextBox__widget question-container">
+            <div class="openTextBox__preText">What Excel functions can help you ensure that all the blank cells are located? Perform an internet search as  needed.</div>
+        <div class="openTextBox__textArea-container">
+            <fieldset class="openTextBox__fieldset">
+                <legend class="openTextBox__legend">Answer Area</legend>
+                <textarea class="openTextBox__textArea" rows="3" name="answerArea" placeholder="Type your answers here."></textarea>
+            </fieldset>
+        </div>
+        <div class="openTextBox__answerText answergray u-display-none">There are multiple ways to do this. One possible answer: use the COUNTBLANK function to determine the number of blank cells.  =COUNTBLANK(range)</div>
+        <div class="btn__container">
+            <button class="btn-text openTextBox__showButton show-answer">Show Answer</button>
+            <button class="btn-text openTextBox__hideButton hide-answer u-display-none">Hide Answer</button>
+        </div>
+    </div>
+</div>
+</div></div><div class="openTextBoxController-inner"><div class="openTextBoxController__button-container">
+  <button class="btn-text showhidebtn openTextBoxController__showButton">Show All Answers</button>
+  <button class="btn-text showhidebtn openTextBoxController__hideButton u-display-none">Hide All Answers</button>
+  <button class="btn-text resetbtn openTextBoxController__resetButton">Clear All Responses</button>
+</div>
+  <div class="post-text"><hr>© 2017 - 2023 Cisco and/or its affiliates. All rights reserved. Cisco Public</div>
+</div>
+
+</div>
+</div></div>
+
+</div>
+</body>
+<script>
+    window.addEventListener("load", function () {
+      console.log("loaded");
+      document.querySelectorAll(".answergray").forEach(function (ele) {
+        ele.classList.add("u-display-none");
+      });
+      document.querySelectorAll(".hide-answer").forEach(function (ele) {
+        ele.classList.add("u-display-none");
+      });
+      document.querySelectorAll(".show-answer").forEach(function (ele) {
+        ele.addEventListener("click", function (e) {
+          e.currentTarget.nextElementSibling.classList.remove("u-display-none");
+          e.currentTarget
+            .closest(".question-container")
+            .querySelectorAll(".answergray")
+            .forEach(function (ele) {
+              ele.classList.remove("u-display-none");
+            });
+          ele.classList.add("u-display-none");
+        });
+      });
+      document.querySelectorAll(".hide-answer").forEach(function (ele) {
+        ele.addEventListener("click", function (e) {
+          e.currentTarget.previousElementSibling.classList.remove("u-display-none");
+          e.currentTarget
+            .closest(".question-container")
+            .querySelectorAll(".answergray")
+            .forEach(function (ele) {
+              ele.classList.add("u-display-none");
+            });
+          ele.classList.add("u-display-none");
+        });
+      });
+      var event = new Event("click", {
+        bubbles: true,
+        cancelable: true,
+      });
+      document
+        .querySelectorAll(".openTextBoxController__showButton")
+        .forEach(function (ele) {
+          ele.addEventListener("click", function (e) {
+            e.currentTarget.nextElementSibling.classList.remove("u-display-none");
+            ele.classList.add("u-display-none");
+            document.querySelectorAll(".show-answer").forEach(function (ele) {
+              ele.dispatchEvent(event);
+            });
+          });
+        });
+
+      document
+        .querySelectorAll(".openTextBoxController__hideButton")
+        .forEach(function (ele) {
+          ele.addEventListener("click", function (e) {
+            e.currentTarget.previousElementSibling.classList.remove("u-display-none");
+            ele.classList.add("u-display-none");
+            document.querySelectorAll(".hide-answer").forEach(function (ele) {
+              ele.dispatchEvent(event);
+            });
+          });
+        });
+
+      document
+        .querySelectorAll(".openTextBoxController__resetButton")
+        .forEach(function (ele) {
+          ele.addEventListener("click", function (e) {
+            document.querySelectorAll("textArea").forEach(function (ele) {
+              ele.value = "";
+            });
+          });
+        });
+    });
+  </script>
+  </html>
